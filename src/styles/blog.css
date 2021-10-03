@@ -1,0 +1,80 @@
+/* Blog List */
+.blog-container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "main main main"
+    "main main main"
+    "main main main";
+  padding: 0 5.4rem;
+}
+
+.blog-header {
+  grid-area: header;
+  transition:0.2s;
+}
+
+.blog-header:hover {
+  background-color: #a2dbff;
+  transform: scaleY(1.2);
+  transform-origin: center;
+}
+
+.blog-header:hover div {
+  transform: scaleY(0.8333);
+}
+
+.blog-text {
+  grid-area: main;
+}
+
+.blog-tagline {
+  font-family: "Roboto Mono"
+}
+
+ul li {
+  display: inline;
+}
+
+.filter li {
+  padding: 0.5rem 1rem;
+  border-left: 1px solid;
+}
+
+.filter .first-li {
+  border: none;
+}
+
+.filter li:hover {
+  color: #cdecff;
+  border-color: black;
+  cursor: pointer;
+}
+
+/*Blog Post*/
+
+.post {
+  margin-right: 42%;
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+  margin-left: 5%;
+}
+
+.blog-text {
+  font-size: 1.1rem;
+}
+
+.post p {
+  border-left: solid;
+  border-color: #cdecff;
+  border-width: 0.5rem;
+  padding-left: 0.5rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-block-start: 0.5em;
+  padding-block-end: 0.5em;
+  line-height: 1.75;
+}
