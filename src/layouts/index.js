@@ -1,13 +1,18 @@
 import React from "react";
 import Link from "gatsby-link";
 import "../styles/styles.css";
-import "@fontsource/roboto-mono" // Defaults to weight 400 with all styles included.
-import Header from "../components/Header"
+import "@fontsource/roboto-mono"; // Defaults to weight 400 with all styles included.
+import Header from "../components/Header";
 
-export const TemplateWrapper = ({ children, headerChildren }) => (
+export const TemplateWrapper = ({
+  children,
+  headerChildren,
+  footerChildren,
+}) => (
   <body className="roboto relative">
     <Header headerChildren={headerChildren} />
     <div class="wrapper min-h-100 mb6">{children}</div>
+    {footerChildren}
     <ul class="widgets mb0">
       <li>
         <a href="https://github.com/cbuchko" target="_blank" rel="noreferrer">
@@ -24,6 +29,10 @@ export const TemplateWrapper = ({ children, headerChildren }) => (
         </a>
       </li>
     </ul>
-    <button id="scroll-btn" className="sidebar-btns" title="Scroll to top"></button>
+    <button
+      id="scroll-btn"
+      className="sidebar-btns"
+      title="Scroll to top"
+    ></button>
   </body>
 );

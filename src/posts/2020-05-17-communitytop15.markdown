@@ -4,7 +4,7 @@ title: The Ten Best Episodes of Community
 featuredImage: ../assets/images/Community.jpg
 publish-date: 2020-05-17
 category: tv
-featured: false
+featured: true
 ---
 
 Community is a special sitcom in the same vein as The Office, Parks and Recreation, and Brooklyn 99. It thrives off its amazing cast, clever writing, and willingness to go beyond the norm of a typical TV show. This combination resulted in a show that produced countless episodes that I would consider to be some of the best TV ever made. 

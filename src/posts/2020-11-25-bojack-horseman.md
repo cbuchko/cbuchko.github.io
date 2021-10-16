@@ -3,7 +3,7 @@ layout: blog-post
 title: "Bojack Horseman is a Masterpiece"
 featuredImage: ../assets/images/bojack.jpg
 publish-date: 2020-11-26
-featured: false
+featured: true
 category: tv
 ---
 

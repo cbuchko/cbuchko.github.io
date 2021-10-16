@@ -6,8 +6,13 @@ import "../styles/tachyons.css";
 import "../styles/blog.css";
 import "../styles/home.css";
 import SearchBar from "../components/SearchBar";
+import Experience from "../components/Experience.js";
+import Project from "../components/Project.js";
+import Carousel from "react-elastic-carousel";
+// import CarouselItem from "../components/CarouselItem";
 
 import { TemplateWrapper } from "../layouts/index";
+import CarouselItem from "../components/CarouselItem";
 
 const headerChildren = (
   <div className="m0 pt6 mb5 bg-lightest-blue curved">
@@ -49,14 +54,92 @@ const headerChildren = (
     </svg>
   </div>
 );
+
+const footerChildren = (
+  <div className="contact pt4 pb7 bg-lightest-blue flex flex-column justify-center">
+    <h1 className="">Let's get in contact!</h1>
+    <form
+      className="pt3"
+      action="https://formspree.io/f/xdoyjrov"
+      method="POST"
+      id="my-form"
+      autoComplete="off"
+    >
+      <div className="label"><b>Name</b></div>
+      <div class="form-group">
+        <input
+          className="input-box"
+          type="text"
+          name="username"
+          size="30"
+          autoComplete="off"
+          required
+        />
+      </div>
+      <div className="label"><b>Email</b></div>
+      <div class="form-group">
+        <input
+          className="input-box"
+          type="text"
+          name="source"
+          size="30"
+          autoComplete="off"
+          required
+        />
+      </div>
+      <div className="label"><b>Message</b></div>
+      <div class="form-group">
+        <textarea
+          className="input-box"
+          name="message"
+          id="message"
+          cols="33"
+          rows="5"
+          required
+        ></textarea>
+      </div>
+      <div class="">
+        <button
+          className="submit pv2 flex justify-center items-center"
+          type="submit"
+        >
+          <div>Send</div>
+          <img className="airplane ph3" src="/airplane.png" />
+        </button>
+      </div>
+    </form>
+  </div>
+);
+
+const breakPoints = [{ width: 1, itemsToShow: 1 }];
+
 export default function Home({ data }) {
+  const blogs = data.allMarkdownRemark.edges;
+  const carouselRef = React.useRef(null);
+  const carouselLength = blogs.length;
+  const onNextStart = (currentItem, nextItem) => {
+    if (currentItem.index === nextItem.index) {
+      // we hit the last item, go to first item
+      carouselRef.current.goTo(0);
+    }
+  };
+  const onPrevStart = (currentItem, nextItem) => {
+    if (currentItem.index === nextItem.index) {
+      // we hit the first item, go to last item
+      carouselRef.current.goTo(carouselLength);
+    }
+  };
+
   return (
-    <TemplateWrapper headerChildren={headerChildren}>
-      <h1 className="tc">Qualifications</h1>
+    <TemplateWrapper
+      headerChildren={headerChildren}
+      footerChildren={footerChildren}
+    >
+      <h1 className="tc">Experience</h1>
       <div className="tc mb5">
         Check out my{" "}
         <a
-          className="resume"
+          className="homelink"
           href="/resume.pdf"
           target="_blank"
           rel="noreferrer"
@@ -66,37 +149,134 @@ export default function Home({ data }) {
         for more detailed descriptions.
       </div>
       <div className="flex justify-around">
-        <div className="experience">
-          <div className="tc f4 b">Software Developer</div>
-          <div className="tc">8 month Co-op</div>
-          <img className="experience-image" src="/Reach.png" />
-          <div className="pv3 lh-copy">
-            At Thrive Customer Relationship Manager Software, I used <b>React</b> with <b>TypeScript</b> to
-            develop their real estate agent CRM ReachForAgents. Most notably, I
-            overhauled the calendar component, working intimately with the
-            <b> Google API</b> to integrate Google Calendar.
-            {/* My most notable project was
-            overhauling the CRMs calendar functionality, which involved
-            integrating with Google Calendar and working intimitely with the Google
-            API. */}
-          </div>
+        <Experience
+          title="Software Developer"
+          length="8"
+          url="https://reachforagents.com/"
+          imgref="/Reach.png"
+          body={
+            <>
+              At Thrive Customer Relationship Manager (CRM) Software, I used{" "}
+              <b>React</b> with <b>TypeScript</b> to develop their real estate
+              agent CRM{" "}
+              <a
+                className="homelink"
+                href="https://reachforagents.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Reach
+              </a>
+              . Most notably, I overhauled the calendar component, working
+              intimately with the
+              <b> Google API</b> to integrate Google Calendar.
+            </>
+          }
+        />
+        <Experience
+          title="Quality Assurance Analyst"
+          length="4"
+          url="https://www.geocortex.com/"
+          imgref="/geocortex.png"
+          body={
+            <>
+              At VertiGIS, I did QA for{" "}
+              <a
+                className="homelink"
+                href="https://www.geocortex.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Geocortex{" "}
+              </a>
+              as part of an agile team. My responsibilities were to test pull
+              requests, report bugs, and write automated functional tests using{" "}
+              <b>WebDriverIO</b>, <b>Mocha</b> and <b>TypeScript</b>.
+            </>
+          }
+        />
+      </div>
+      <h1 className="tc mt7 mb5">Projects</h1>
+      <div>
+        <div className="flex justify-center">
+          <Project
+            title="Survival Game"
+            img="/gameexamplestatic.png"
+            gif="/gameexamplegif.gif"
+            body="A survival game made in Unity with C#. All of the assets and animations were drawn in Asesprite."
+            link="https://github.com/cbuchko/gamedev"
+          />
+          <Project
+            title="Platforming Game"
+            img="/platformerexamplestatic.png"
+            gif="/platformerexamplegif.gif"
+            body="A side-scrolling platforming game made in Unity with C#. Developed with an emphasis on jumping physics."
+          />
+          <Project
+            title="Multiplayer Racing Game"
+            img="/racegamestatic.png"
+            gif="/racegamegif.gif"
+            body="A multiplayer platforming race game made without an engine, using JavaScript and Socket.io."
+            link="https://github.com/cbuchko/race-game"
+          />
         </div>
-        <div className="experience">
-          <div className="tc f4 b">Quality Assurance Analyst</div>
-
-          <div className="tc">4 month Co-op</div>
-          <img className="experience-image" src="/geocortex.png" />
-          <div className="pv3 lh-copy">
-            At VertiGIS, I did QA for Geocortex as part of an agile team. My
-            responsibilities were to test pull requests, report bugs, and write
-            automated functional tests using <b>WebDriverIO</b>, <b>Mocha</b>{" "}
-            and <b>TypeScript</b>.
-          </div>
+        <div className="project-shelf bg-lightest-blue pv3 mh6 br-pill">
+          &nbsp;
         </div>
       </div>
-      <h1 className="tc">Projects</h1>
-      <h1 className="tc">Blog</h1>
-      <h1 className="tc">Contact</h1>
+      <h1 className="tc mt7 mb5">Featured Blog Posts</h1>
+      <Carousel
+        breakPoints={breakPoints}
+        ref={carouselRef}
+        onPrevStart={onPrevStart}
+        onNextStart={onNextStart}
+        disableArrowsOnEnd={false}
+      >
+        {blogs.map((edge, index) => (
+          <CarouselItem
+            key={index}
+            title={edge.node.frontmatter.title}
+            img={edge.node.frontmatter.featuredImage.childImageSharp.fluid}
+            slug={edge.node.fields.slug}
+            body={edge.node.excerpt}
+          />
+        ))}
+      </Carousel>
     </TemplateWrapper>
   );
 }
+
+export const query = graphql`
+  query {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [fields___date] }
+      filter: {
+        fileAbsolutePath: { regex: "/[0-9]{4}-[0-9]{2}-[0-9]{2}-.*/" }
+        frontmatter: { featured: { eq: true } }
+      }
+    ) {
+      edges {
+        node {
+          id
+          excerpt(pruneLength: 230)
+          frontmatter {
+            title
+            category
+            featured
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          fields {
+            slug
+            date
+          }
+        }
+      }
+    }
+  }
+`;
