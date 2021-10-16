@@ -16,27 +16,30 @@ import CarouselItem from "../components/CarouselItem";
 
 const headerChildren = (
   <div className="m0 pt6 mb5 bg-lightest-blue curved">
-    <div className="f4 message pb3 flex">
-      <div className="fade-in-code pr2">I code.</div>
-      <div className="fade-in-write pr2">I write.</div>
-      <div className="fade-in-create pr2">I create.</div>
-    </div>
-    <div className="flex justify-between items-center">
-      <div className="message">
+    <div className="hero">
+      <div className="message flex flex-column justify-center">
+        <div className="f5 pb2 flex">
+          <div className="fade-in-code pr2">I code.</div>
+          <div className="fade-in-write pr2">I write.</div>
+          <div className="fade-in-create pr2">I create.</div>
+        </div>
         <div className="f1 b">Welcome to my Blog and Portfolio</div>
-        <div className="f4 pt4 pr7 roboto lh-copy">
-          I'm Connor Buchko, a 5th year Software Engineering student at the
-          University of Victoria. My passion is storytelling, whether I'm
-          designing software, making blog posts, or writing short stories. I'm
-          currently pursuing a Co-op position for the fall of 2022.
+        <div className="f4 pt4 roboto lh-copy">
+          I'm a 5th year Software Engineering student at the University of
+          Victoria, currently pursuing a Co-op position for the Fall of 2022.
+        </div>
+        <div className="pt5">
+          <a href="#contact"><div className="CTA" type="button">CONTACT ME</div></a>
         </div>
       </div>
-      <img class="w5 h-100 br-100 headshot" src="/headshot.jpg" />
+      <div className="graphic flex justify-end">
+        <img class="full-width w-70" src="/cartoon.png" />
+      </div>
     </div>
     <svg
       id="wave"
       style={{ transform: "rotate(0deg);", transition: "0.3s" }}
-      viewBox="0 0 1440 329"
+      viewBox="0 50 1440 330"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -56,7 +59,7 @@ const headerChildren = (
 );
 
 const footerChildren = (
-  <div className="contact pt4 pb7 bg-lightest-blue flex flex-column justify-center">
+  <div id="contact" className="contact pt4 pb7 bg-lightest-blue flex flex-column justify-center">
     <h1 className="">Let's get in contact!</h1>
     <form
       className="pt3"
@@ -65,7 +68,9 @@ const footerChildren = (
       id="my-form"
       autoComplete="off"
     >
-      <div className="label"><b>Name</b></div>
+      <div className="label">
+        <b>Name</b>
+      </div>
       <div class="form-group">
         <input
           className="input-box"
@@ -76,7 +81,9 @@ const footerChildren = (
           required
         />
       </div>
-      <div className="label"><b>Email</b></div>
+      <div className="label">
+        <b>Email</b>
+      </div>
       <div class="form-group">
         <input
           className="input-box"
@@ -87,7 +94,9 @@ const footerChildren = (
           required
         />
       </div>
-      <div className="label"><b>Message</b></div>
+      <div className="label">
+        <b>Message</b>
+      </div>
       <div class="form-group">
         <textarea
           className="input-box"
@@ -100,10 +109,10 @@ const footerChildren = (
       </div>
       <div class="">
         <button
-          className="submit pv2 flex justify-center items-center"
+          className="submit pv2 flex items-center"
           type="submit"
         >
-          <div>Send</div>
+          <div className="tc">SEND</div>
           <img className="airplane ph3" src="/airplane.png" />
         </button>
       </div>

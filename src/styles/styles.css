@@ -11,7 +11,14 @@ body {
 
 .header {
   font-family: "Roboto Mono";
-  padding-left: 5%;
+  padding: 2rem;
+  padding-left: 15%;
+}
+
+.header-title {
+  text-decoration: none;
+  font-weight: bold;
+  color: #9B5094;
 }
 
 .wrapper {
@@ -33,7 +40,7 @@ body {
   cursor: pointer;
   padding: 0.9375rem;
   border-radius: 0.25rem;
-  background-image: url("/arrow-up.svg");
+  background-image: url("/arrow-up.png");
   background-repeat: no-repeat;
   width: 60px;
   height: 60px;
@@ -43,14 +50,14 @@ body {
 }
 
 #scroll-btn {
-  background-image: url("/arrow-up.svg");
-  background-color: #cdecff;
+  background-image: url("/arrow-up.png");
+  background-color: #9B5094;
   border-radius: 50%;
   display: block;
 }
 
 #scroll-btn:hover {
-  background-color: #a2dbff;
+  background-color: #863c7f;
 }
 
 /** footer stlying **/

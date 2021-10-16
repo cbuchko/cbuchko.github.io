@@ -1,38 +1,34 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 .message {
   font-family: "Roboto Mono";
-  margin-left: 10%;
-}
-
-.tagline {
-  display: grid;
-  grid-template-areas:
-    "code . ."
-    ". write ."
-    ". . create";
-  column-gap: 6rem;
-  row-gap: 3rem;
-}
-
-.codetag {
-  grid-area: code;
-}
-
-.writetag {
-  grid-area: write;
-}
-
-.createtag {
-  grid-area: create;
 }
 
 .curved svg {
   display: block;
 }
 
-.headshot {
-  margin-right: 17%;
+/* 
+  Blush - E36588
+  Razzmic Berry - 9B5094
+*/
+.CTA {
+  background-color: #9B5094; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 16rem;
+  border-radius: 2rem;
 }
-
 /** Qualifications Styling **/
 
 .homelink {
@@ -184,11 +180,19 @@
 }
 
 .submit {
+  background-color: #9B5094; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
   width: 18rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  
 }
 
 .airplane {
-  max-width: 7.5%;
+  max-width: 10%;
 }
 
 /** Fade in animations **/
