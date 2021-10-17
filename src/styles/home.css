@@ -1,3 +1,7 @@
+.section-header{
+  font-family: "Roboto Mono";
+}
+
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -18,7 +22,8 @@
   Razzmic Berry - 9B5094
 */
 .CTA {
-  background-color: #9B5094; /* Green */
+  font-family: "Roboto Mono";
+  background-color: #9b5094; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -28,6 +33,10 @@
   font-size: 16px;
   width: 16rem;
   border-radius: 2rem;
+}
+
+.CTA:hover {
+  background-color: #863c7f;
 }
 /** Qualifications Styling **/
 
@@ -45,6 +54,7 @@
   box-shadow: 4px 16px 16px 4px rgba(0, 0, 0, 0.2);
   padding: 2rem;
   max-width: 20rem;
+  margin: 0 4rem;
 }
 .experience-image {
   border-radius: 2rem;
@@ -106,7 +116,7 @@
 /** Blog Carousel Styles **/
 
 .carousel-item {
-  max-height: 30rem;
+  max-height: 26rem;
 }
 
 .carousel-info {
@@ -129,7 +139,7 @@
 }
 
 .rec.rec-slider-container {
-  width: 75%;
+  width: 60%;
   margin: 0 4rem;
 }
 
@@ -157,6 +167,10 @@
   background: #cdecff;
 }
 
+.bloglink {
+  margin-right: 20%;
+}
+
 /** Contact Form Styling **/
 
 .contact {
@@ -180,7 +194,8 @@
 }
 
 .submit {
-  background-color: #9B5094; /* Green */
+  font-family: "Roboto Mono";
+  background-color: #9b5094; /* Green */
   border: none;
   color: white;
   text-align: center;
@@ -188,7 +203,10 @@
   width: 18rem;
   border-radius: 2rem;
   padding: 1rem;
-  
+}
+
+.submit:hover {
+  background-color: #863c7f;
 }
 
 .airplane {

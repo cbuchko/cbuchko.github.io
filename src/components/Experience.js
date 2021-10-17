@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Project({ title, length, url, imgref, body }) {
+export default function Experience({ title, length, url, imgref, body }) {
   return (
     <div className="experience">
       <div className="tc f4 b">{title}</div>

@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 body {
   font-size: 100%;
@@ -11,7 +12,7 @@ body {
 
 .header {
   font-family: "Roboto Mono";
-  padding: 2rem;
+  padding: 2.5rem;
   padding-left: 15%;
 }
 
@@ -46,7 +47,6 @@ body {
   height: 60px;
   background-position: center;
   transition: opacity 2s, left 0.5s, right 0.5s;
-  scroll-behavior: smooth;
 }
 
 #scroll-btn {
@@ -67,7 +67,7 @@ body {
   justify-content: center;
   background-color: #cdecff;
   list-style-type: none;
-  padding: 5px 0;
+  padding: 1rem 0;
   flex-shrink: 0;
   position: absolute;
   bottom: 0;

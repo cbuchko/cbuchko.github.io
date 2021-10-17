@@ -29,7 +29,11 @@ const headerChildren = (
           Victoria, currently pursuing a Co-op position for the Fall of 2022.
         </div>
         <div className="pt5">
-          <a href="#contact"><div className="CTA" type="button">CONTACT ME</div></a>
+          <a href="#experience">
+            <div className="CTA" type="button">
+              VIEW MY WORK
+            </div>
+          </a>
         </div>
       </div>
       <div className="graphic flex justify-end">
@@ -59,68 +63,75 @@ const headerChildren = (
 );
 
 const footerChildren = (
-  <div id="contact" className="contact pt4 pb7 bg-lightest-blue flex flex-column justify-center">
-    <h1 className="">Let's get in contact!</h1>
-    <form
-      className="pt3"
-      action="https://formspree.io/f/xdoyjrov"
-      method="POST"
-      id="my-form"
-      autoComplete="off"
-    >
-      <div className="label">
-        <b>Name</b>
-      </div>
-      <div class="form-group">
-        <input
-          className="input-box"
-          type="text"
-          name="username"
-          size="30"
-          autoComplete="off"
-          required
-        />
-      </div>
-      <div className="label">
-        <b>Email</b>
-      </div>
-      <div class="form-group">
-        <input
-          className="input-box"
-          type="text"
-          name="source"
-          size="30"
-          autoComplete="off"
-          required
-        />
-      </div>
-      <div className="label">
-        <b>Message</b>
-      </div>
-      <div class="form-group">
-        <textarea
-          className="input-box"
-          name="message"
-          id="message"
-          cols="33"
-          rows="5"
-          required
-        ></textarea>
-      </div>
-      <div class="">
-        <button
-          className="submit pv2 flex items-center"
-          type="submit"
-        >
-          <div className="tc">SEND</div>
-          <img className="airplane ph3" src="/airplane.png" />
-        </button>
-      </div>
-    </form>
+  <div
+    id="contact"
+    className="pt4 pb7 bg-lightest-blue flex justify-center"
+  >
+    <div className="pr4">
+      <h1 className="section-header">Let's get in contact!</h1>
+      <form
+        className="pt3"
+        action="https://formspree.io/f/xdoyjrov"
+        method="POST"
+        id="my-form"
+        autoComplete="off"
+      >
+        <div className="label">
+          <b>Name</b>
+        </div>
+        <div class="form-group">
+          <input
+            className="input-box"
+            type="text"
+            name="username"
+            size="30"
+            autoComplete="off"
+            required
+          />
+        </div>
+        <div className="label">
+          <b>Email</b>
+        </div>
+        <div class="form-group">
+          <input
+            className="input-box"
+            type="text"
+            name="source"
+            size="30"
+            autoComplete="off"
+            required
+          />
+        </div>
+        <div className="label">
+          <b>Message</b>
+        </div>
+        <div class="form-group">
+          <textarea
+            className="input-box"
+            name="message"
+            id="message"
+            cols="33"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+        <div class="">
+          <button
+            className="submit pv2 flex justify-center items-center"
+            type="submit"
+          >
+            <div className="">SEND</div>
+            <img className="airplane ph3" src="/airplane.png" />
+          </button>
+        </div>
+      </form>
+    </div>
+    <div className="flex flex-column justify-center items-center pl4">
+      <img class="br-100" src="/headshot.jpg" />
+      <div className="mw5 pt3 lh-copy">I'd love to hear from you, whether you have any questions, feedback or if you just want to talk!</div>
+    </div>
   </div>
 );
-
-const breakPoints = [{ width: 1, itemsToShow: 1 }];
 
 export default function Home({ data }) {
   const blogs = data.allMarkdownRemark.edges;
@@ -144,7 +155,9 @@ export default function Home({ data }) {
       headerChildren={headerChildren}
       footerChildren={footerChildren}
     >
-      <h1 className="tc">Experience</h1>
+      <h1 id="experience" className="section-header tc">
+        Experience
+      </h1>
       <div className="tc mb5">
         Check out my{" "}
         <a
@@ -157,7 +170,7 @@ export default function Home({ data }) {
         </a>{" "}
         for more detailed descriptions.
       </div>
-      <div className="flex justify-around">
+      <div className="flex justify-center">
         <Experience
           title="Software Developer"
           length="8"
@@ -205,7 +218,7 @@ export default function Home({ data }) {
           }
         />
       </div>
-      <h1 className="tc mt7 mb5">Projects</h1>
+      <h1 className="section-header tc mt7 mb5">Projects</h1>
       <div>
         <div className="flex justify-center">
           <Project
@@ -233,9 +246,8 @@ export default function Home({ data }) {
           &nbsp;
         </div>
       </div>
-      <h1 className="tc mt7 mb5">Featured Blog Posts</h1>
+      <h1 className="section-header tc mt7 mb5">Featured Blog Posts</h1>
       <Carousel
-        breakPoints={breakPoints}
         ref={carouselRef}
         onPrevStart={onPrevStart}
         onNextStart={onNextStart}
@@ -251,6 +263,11 @@ export default function Home({ data }) {
           />
         ))}
       </Carousel>
+      <div className="bloglink flex justify-end mt4">
+        <Link className="CTA" title="blog" to="/blog">
+          {"EXPLORE MY BLOG"}
+        </Link>
+      </div>
     </TemplateWrapper>
   );
 }
