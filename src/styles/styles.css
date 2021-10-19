@@ -19,7 +19,13 @@ body {
 .header-title {
   text-decoration: none;
   font-weight: bold;
-  color: #9B5094;
+  color: #9b5094;
+}
+
+.nav:hover {
+  font-weight: bold;
+  border-bottom: solid;
+  border-color: #9b5094;
 }
 
 .wrapper {
@@ -51,7 +57,7 @@ body {
 
 #scroll-btn {
   background-image: url("/arrow-up.png");
-  background-color: #9B5094;
+  background-color: #9b5094;
   border-radius: 50%;
   display: block;
 }

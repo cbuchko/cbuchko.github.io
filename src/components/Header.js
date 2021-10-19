@@ -12,12 +12,12 @@ export default function Header({ headerChildren }) {
         </Link>
         <ul class="ma0 pa0 f4">
           <li class="ph4">
-            <Link className="link" title="home" to="/">
+            <Link className="nav link" title="home" to="/">
               {"Home"}
             </Link>
           </li>
           <li class="ph3">
-            <Link className="link" title="blog" to="/blog">
+            <Link className="nav link" title="blog" to="/blog">
               {"Blog"}
             </Link>
           </li>

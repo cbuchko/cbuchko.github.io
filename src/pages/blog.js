@@ -20,7 +20,7 @@ const BlogImage = (edge) => {
 
 const BlogText = (edge) => {
   return (
-    <div class="blog-container w-50">
+    <div class="blog-content w-50">
       <div
         name="header"
         class="blog-header mt5 pa3 bg-lightest-blue br3 shadow-5"
@@ -28,7 +28,7 @@ const BlogText = (edge) => {
         <div name="title" class="f2">
           {edge.node.frontmatter.title}
         </div>
-        <div name="date" class="f5 mt1">
+        <div name="date" class="f5 mt1 gray">
           {edge.node.fields.date}
         </div>
       </div>
@@ -39,10 +39,12 @@ const BlogText = (edge) => {
   );
 };
 
-const BlogContainer = ({slug, children}) => {
+const BlogContainer = ({ slug, children }) => {
   return (
     <Link className="link" to={`/${slug}`}>
-      <div class="flex pv3 bb-ns bw1-ns h6">{children}</div>
+      <div className="pv4 bb-ns bw1-ns b--moon-gray">
+        <div class="flex h6 ">{children}</div>
+      </div>
     </Link>
   );
 };

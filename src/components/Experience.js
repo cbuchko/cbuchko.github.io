@@ -4,7 +4,7 @@ export default function Experience({ title, length, url, imgref, body }) {
   return (
     <div className="experience">
       <div className="tc f4 b">{title}</div>
-      <div className="tc">{length} month Co-op</div>
+      <div className="tc gray">{length} month Co-op</div>
       <a href={url} target="_blank" rel="noreferrer">
         <img className="experience-image" src={imgref} />
       </a>

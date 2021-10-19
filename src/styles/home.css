@@ -207,6 +207,7 @@
 
 .submit:hover {
   background-color: #863c7f;
+  cursor: pointer;
 }
 
 .airplane {
