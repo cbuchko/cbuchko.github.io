@@ -223,20 +223,20 @@ export default function Home({ data }) {
         <div className="projects-container flex justify-center">
           <Project
             title="Survival Game"
-            img="/gameexamplestatic.png"
+            img="/gameexamplestatic.PNG"
             gif="/gameexamplegif.gif"
             body="A survival game made in Unity with C#. All of the assets and animations were drawn in Asesprite."
             link="https://github.com/cbuchko/gamedev"
           />
           <Project
             title="Platforming Game"
-            img="/platformerexamplestatic.png"
+            img="/platformerexamplestatic.PNG"
             gif="/platformerexamplegif.gif"
             body="A side-scrolling platforming game made in Unity with C#. Developed with an emphasis on jumping physics."
           />
           <Project
             title="Multiplayer Racing Game"
-            img="/racegamestatic.png"
+            img="/racegamestatic.PNG"
             gif="/racegamegif.gif"
             body="A multiplayer platforming race game made without an engine, using JavaScript and Socket.io."
             link="https://github.com/cbuchko/race-game"
