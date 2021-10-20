@@ -1,4 +1,4 @@
-.section-header{
+.section-header {
   font-family: "Roboto Mono";
 }
 
@@ -32,7 +32,7 @@
   display: inline-block;
   font-size: 16px;
   width: 16rem;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
 }
 
 .CTA:hover {
@@ -51,10 +51,10 @@
 .experience {
   background-color: whitesmoke;
   border-radius: 2rem;
-  box-shadow: 4px 16px 16px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.2);
   padding: 2rem;
   max-width: 20rem;
-  margin: 0 4rem;
+  margin: 0 6rem;
 }
 .experience-image {
   border-radius: 2rem;
@@ -69,7 +69,9 @@
 .project-container {
   box-shadow: 0px 16px 8px 0px rgba(0, 0, 0, 0.4);
   max-height: 15rem;
+  margin: 1rem 1.5rem;
 }
+
 .gif {
   border-radius: 1rem;
   max-width: 15.5rem;
@@ -173,18 +175,11 @@
 
 /** Contact Form Styling **/
 
-.contact {
-  padding-left: 40%;
-  padding-right: 40%;
-}
-
 .form-group {
   padding-top: 0.5rem;
   padding-bottom: 1.5rem;
 }
 
-.label {
-}
 .input-box {
   padding: 0.5rem;
   width: 18rem;
@@ -201,7 +196,7 @@
   text-align: center;
   text-decoration: none;
   width: 18rem;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   padding: 1rem;
 }
 
@@ -212,6 +207,116 @@
 
 .airplane {
   max-width: 10%;
+}
+
+/** Mobile Styling **/
+
+@media screen and (max-width: 500px) {
+  /** hero **/
+
+  .hero {
+    display: inline-block;
+    margin: 1rem;
+  }
+
+  .graphic {
+    display: none;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .about-me {
+    font-size: 1rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .CTA-container {
+    margin-bottom: 4rem;
+  }
+
+  .section-header {
+    margin-top: 2rem;
+  }
+
+  /** experience **/
+  .experience-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience {
+    margin: 0;
+    margin-bottom: 8rem;
+  }
+
+  /** projects **/
+
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-container {
+    margin-bottom: 4rem;
+    box-shadow: 0px 12px 12px 0px rgba(0, 0, 0, 0.4);
+  }
+
+  .project-shelf {
+    display: none;
+  }
+
+  /** Carousel **/
+
+  .carousel-item {
+    max-height: 10rem;
+  }
+
+  .carousel-info {
+
+  }
+
+  .carousel-title {
+    font-size: 2rem;
+  }
+
+  .carousel-excerpt {
+    display: none;
+  }
+  .rec.rec-slider-container {
+    width: 100%;
+    margin: 0rem;
+  }
+
+  .rec.rec-carousel-wrapper .rec-carousel button {
+    display: none;
+  }
+
+  .bloglink{
+    justify-content: center;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  /** contact **/
+
+  #contact {
+    display: inline-block;
+    padding-bottom: 8rem;
+  }
+
+  .contact-form {
+    padding: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .contact-me {
+    display: none;
+  }
 }
 
 /** Fade in animations **/

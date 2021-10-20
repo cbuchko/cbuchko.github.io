@@ -97,3 +97,20 @@ body {
     padding: 0 10%;
   }
 }
+
+/** Mobile Styles **/ 
+
+@media screen and (max-width: 500px) {
+
+  .header{
+    padding: 1rem;
+  }
+
+  #scroll-btn{
+    display:none;
+  }
+
+  .wrapper{
+    padding: 1rem;
+  }
+}

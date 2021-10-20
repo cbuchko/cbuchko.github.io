@@ -18,17 +18,17 @@ const headerChildren = (
   <div className="m0 pt6 mb5 bg-lightest-blue curved">
     <div className="hero">
       <div className="message flex flex-column justify-center">
-        <div className="f5 pb2 flex">
-          <div className="fade-in-code pr2">I code.</div>
-          <div className="fade-in-write pr2">I write.</div>
-          <div className="fade-in-create pr2">I create.</div>
+        <div className="tagline f5 pb2 flex">
+          <div className="pr2">I code.</div>
+          <div className="pr2">I write.</div>
+          <div className="pr2">I create.</div>
         </div>
-        <div className="f1 b">Welcome to my Blog and Portfolio</div>
-        <div className="f4 pt4 roboto lh-copy">
+        <div className="title f1 b">Welcome to my Blog and Portfolio</div>
+        <div className="about-me f4 pt4 roboto lh-copy">
           I'm a 5th year Software Engineering student at the University of
           Victoria, currently pursuing a Co-op position for the Fall of 2022.
         </div>
-        <div className="pt5">
+        <div className="CTA-container pt5">
           <a href="#experience">
             <div className="CTA" type="button">
               VIEW MY WORK
@@ -63,11 +63,8 @@ const headerChildren = (
 );
 
 const footerChildren = (
-  <div
-    id="contact"
-    className="pt4 pb7 bg-lightest-blue flex justify-center"
-  >
-    <div className="pr4">
+  <div id="contact" className="pt4 pb7 bg-lightest-blue flex justify-center">
+    <div className="contact-form pr4">
       <h1 className="section-header">Let's get in contact!</h1>
       <form
         className="pt3"
@@ -126,9 +123,12 @@ const footerChildren = (
         </div>
       </form>
     </div>
-    <div className="flex flex-column justify-center items-center pl4">
+    <div className="contact-me flex flex-column justify-center items-center pl4">
       <img class="br-100" src="/headshot.jpg" />
-      <div className="mw5 pt3 lh-copy">I'd love to hear from you, whether you have any questions, feedback or if you just want to talk!</div>
+      <div className="mw5 pt3 lh-copy">
+        I'd love to hear from you, whether you have any questions, feedback or
+        if you just want to talk!
+      </div>
     </div>
   </div>
 );
@@ -170,7 +170,7 @@ export default function Home({ data }) {
         </a>{" "}
         for more detailed descriptions.
       </div>
-      <div className="flex justify-center">
+      <div className="experience-container flex justify-center">
         <Experience
           title="Software Developer"
           length="8"
@@ -220,7 +220,7 @@ export default function Home({ data }) {
       </div>
       <h1 className="section-header tc mt7 mb5">Projects</h1>
       <div>
-        <div className="flex justify-center">
+        <div className="projects-container flex justify-center">
           <Project
             title="Survival Game"
             img="/gameexamplestatic.png"
@@ -267,7 +267,7 @@ export default function Home({ data }) {
         <Link className="CTA" title="blog" to="/blog">
           {"EXPLORE MY BLOG"}
         </Link>
-      </div>
+      </div>  
     </TemplateWrapper>
   );
 }
