@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { graphql } from "gatsby";
 import Link from "gatsby-link";
-import Img from "gatsby-image";
 import "../styles/tachyons.css";
 import "../styles/blog.css";
 import "../styles/home.css";
-import SearchBar from "../components/SearchBar";
 import Experience from "../components/Experience.js";
 import Project from "../components/Project.js";
 import Carousel from "react-elastic-carousel";
@@ -15,8 +13,8 @@ import { TemplateWrapper } from "../layouts/index";
 import CarouselItem from "../components/CarouselItem";
 
 const headerChildren = (
-  <div className="m0 pt6 mb5 bg-lightest-blue curved">
-    <div className="hero">
+  <div className="m0 mb5 bg-lightest-blue curved">
+    <div className="hero pt6 ">
       <div className="message flex flex-column justify-center">
         <div className="tagline f5 pb2 flex">
           <div className="pr2">I code.</div>
@@ -37,7 +35,7 @@ const headerChildren = (
         </div>
       </div>
       <div className="graphic flex justify-end">
-        <img class="full-width w-70" src="/cartoon.png" />
+        <img class="w-70" src="/cartoon.png" alt="drawing of me"/>
       </div>
     </div>
     <svg
@@ -47,12 +45,6 @@ const headerChildren = (
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <defs>
-        <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-          <stop stop-color="rgba(162, 219, 255, 1)" offset="0%"></stop>
-          <stop stop-color="rgba(205, 236, 255, 1)" offset="100%"></stop>
-        </linearGradient>
-      </defs>
       <path
         style={{ transform: "translate(0, 0px);", opacity: "1" }}
         fill="white"
@@ -64,7 +56,7 @@ const headerChildren = (
 
 const footerChildren = (
   <div id="contact" className="pt4 pb7 bg-lightest-blue flex justify-center">
-    <div className="contact-form pr4">
+    <div className="contact-form pr5">
       <h1 className="section-header">Let's get in contact!</h1>
       <form
         className="pt3"
@@ -118,13 +110,13 @@ const footerChildren = (
             type="submit"
           >
             <div className="">SEND</div>
-            <img className="airplane ph3" src="/airplane.png" />
+            <img className="airplane ph3" src="/airplane.png" alt="send icon" />
           </button>
         </div>
       </form>
     </div>
-    <div className="contact-me flex flex-column justify-center items-center pl4">
-      <img class="br-100" src="/headshot.jpg" />
+    <div className="contact-me flex flex-column justify-center items-center pl5">
+      <img class="br-100" src="/headshot.jpg"  alt="headshot"/>
       <div className="mw5 pt3 lh-copy">
         I'd love to hear from you, whether you have any questions, feedback or
         if you just want to talk!

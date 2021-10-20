@@ -102,6 +102,7 @@ export default function Blog({ data }) {
           />
           <ul class="filter">
             <li
+              key="survivor"
               style={filterColor("survivor")}
               onMouseDown={() => handleFilter("survivor")}
               class="first-li"
@@ -109,12 +110,14 @@ export default function Blog({ data }) {
               Survivor
             </li>
             <li
+              key="tv"
               style={filterColor("tv")}
               onMouseDown={() => handleFilter("tv")}
             >
               TV Reviews
             </li>
             <li
+              key="community"
               style={filterColor("community")}
               onMouseDown={() => handleFilter("community")}
             >

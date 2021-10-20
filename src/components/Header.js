@@ -6,12 +6,12 @@ import "@fontsource/roboto-mono"; // Defaults to weight 400 with all styles incl
 export default function Header({ headerChildren }) {
   return (
     <div>
-      <div class="bg-lightest-blue header flex items-center overflow-hidden">
+      <div className="bg-lightest-blue header flex items-center overflow-hidden">
         <Link className="header-title f3 mr3" title="home" to="/">
           {"Connor Buchko"}
         </Link>
-        <ul class="ma0 pa0 f4">
-          <li class="ph4">
+        <ul className="ma0 pa0 f4">
+          <li className="ph4">
             <Link className="nav link" title="home" to="/">
               {"Home"}
             </Link>

@@ -92,9 +92,38 @@ body {
   width: 70px;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1650px) {
   .wrapper {
     padding: 0 10%;
+  }
+
+  .header {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  .hero {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 2rem;
+    padding-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .wrapper {
+    padding: 0 5%;
+  }
+
+  .header {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .hero {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 4rem;
   }
 }
 
