@@ -35,7 +35,7 @@ const headerChildren = (
         </div>
       </div>
       <div className="graphic flex justify-end">
-        <img class="w-70" src="/cartoon.png" alt="drawing of me"/>
+        <img class="w-70" src="/cartoon.png" alt="drawing of me" />
       </div>
     </div>
     <svg
@@ -65,45 +65,47 @@ const footerChildren = (
         id="my-form"
         autoComplete="off"
       >
-        <div className="label">
+        <label className="label">
           <b>Name</b>
-        </div>
-        <div class="form-group">
-          <input
-            className="input-box"
-            type="text"
-            name="username"
-            size="30"
-            autoComplete="off"
-            required
-          />
-        </div>
-        <div className="label">
+
+          <div class="form-group">
+            <input
+              className="input-box"
+              type="text"
+              name="username"
+              size="30"
+              autoComplete="off"
+              required
+            />
+          </div>
+        </label>
+        <label className="label">
           <b>Email</b>
-        </div>
-        <div class="form-group">
-          <input
-            className="input-box"
-            type="text"
-            name="source"
-            size="30"
-            autoComplete="off"
-            required
-          />
-        </div>
-        <div className="label">
+
+          <div class="form-group">
+            <input
+              className="input-box"
+              type="text"
+              name="source"
+              size="30"
+              autoComplete="off"
+              required
+            />
+          </div>
+        </label>
+        <label className="label">
           <b>Message</b>
-        </div>
-        <div class="form-group">
-          <textarea
-            className="input-box"
-            name="message"
-            id="message"
-            cols="33"
-            rows="5"
-            required
-          ></textarea>
-        </div>
+          <div class="form-group">
+            <textarea
+              className="input-box"
+              name="message"
+              id="message"
+              cols="33"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+        </label>
         <div class="">
           <button
             className="submit pv2 flex justify-center items-center"
@@ -116,7 +118,7 @@ const footerChildren = (
       </form>
     </div>
     <div className="contact-me flex flex-column justify-center items-center pl5">
-      <img class="br-100" src="/headshot.jpg"  alt="headshot"/>
+      <img class="br-100" src="/headshot.jpg" alt="headshot" />
       <div className="mw5 pt3 lh-copy">
         I'd love to hear from you, whether you have any questions, feedback or
         if you just want to talk!
@@ -259,7 +261,7 @@ export default function Home({ data }) {
         <Link className="CTA" title="blog" to="/blog">
           {"EXPLORE MY BLOG"}
         </Link>
-      </div>  
+      </div>
     </TemplateWrapper>
   );
 }

@@ -11,6 +11,7 @@ export const TemplateWrapper = ({
 }) => (
   <body className="roboto relative">
     <Helmet>
+      <html lang="en" />
       <meta charSet="utf-8" />
       <title>Connor Buchko</title>
       <link rel="shortcut icon" type="image/jpg" href="/cartoon.png"/>

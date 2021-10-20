@@ -28,7 +28,7 @@ const BlogText = (edge) => {
         <div name="title" class="f2">
           {edge.node.frontmatter.title}
         </div>
-        <div name="date" class="f5 mt1 gray">
+        <div name="date" class="f5 mt1 mid-gray">
           {edge.node.fields.date}
         </div>
       </div>
