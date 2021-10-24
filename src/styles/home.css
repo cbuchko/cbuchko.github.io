@@ -33,6 +33,7 @@
   font-size: 16px;
   width: 16rem;
   border-radius: 0.5rem;
+  -webkit-appearance: none;
 }
 
 .CTA:hover {
@@ -240,20 +241,31 @@
   }
 
   .section-header {
-    margin-top: 2rem;
+    margin-top: 12rem;
+    font-size: 1.75rem;
+  }
+
+  .section-header:first-of-type {
+    margin-top: 4rem;
   }
 
   /** experience **/
+  .resume-block{
+    padding: 0 0.75rem;
+  }
+
   .experience-container {
     flex-direction: column;
     align-items: center;
   }
 
-  .experience {
+  .experience{
     margin: 0;
-    margin-bottom: 8rem;
   }
 
+  .experience:first-of-type{
+    margin-bottom: 8rem;
+  }
   /** projects **/
 
   .projects-container {
@@ -266,8 +278,20 @@
     box-shadow: 0px 12px 12px 0px rgba(0, 0, 0, 0.4);
   }
 
+  .project-container:last-of-type {
+    margin-bottom: 0;
+  }
+
   .project-shelf {
     display: none;
+  }
+  
+  .disabled {
+    pointer-events: none;
+  }
+
+  .project-image {
+    pointer-events: auto;
   }
 
   /** Carousel **/
@@ -277,18 +301,22 @@
   }
 
   .carousel-info {
-
+    background-color: rgb(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255, 1);
+    height: 100%;
+    opacity: 1;
+    top: 0;
   }
 
   .carousel-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .carousel-excerpt {
     display: none;
   }
   .rec.rec-slider-container {
-    width: 100%;
+    width: 90%;
     margin: 0rem;
   }
 
@@ -299,20 +327,32 @@
   .bloglink{
     justify-content: center;
     text-align: center;
-    margin-right: 0;
+    margin: 0;
+    margin-top: 4rem;
   }
 
   /** contact **/
 
   #contact {
-    display: inline-block;
+    display: flex;
     padding-bottom: 8rem;
+    padding-top: 0;
   }
 
   .contact-form {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
     padding: 1rem;
-    margin-bottom: 4rem;
+    padding-top: 0;
+    margin: 0 4rem 10%;
   }
+
+  /* form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
 
   .contact-me {
     display: none;

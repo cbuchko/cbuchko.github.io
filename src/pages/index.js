@@ -57,7 +57,9 @@ const headerChildren = (
 const footerChildren = (
   <div id="contact" className="pt4 pb7 bg-lightest-blue flex justify-center">
     <div className="contact-form pr5">
-      <h1 className="section-header">Let's get in contact!</h1>
+      <div>
+        <h1 className="section-header">Let's get in contact!</h1>
+      </div>
       <form
         className="pt3"
         action="https://formspree.io/f/xdoyjrov"
@@ -152,7 +154,7 @@ export default function Home({ data }) {
       <h1 id="experience" className="section-header tc">
         Experience
       </h1>
-      <div className="tc mb5">
+      <div className="resume-block tc mb5">
         Check out my{" "}
         <a
           className="homelink"
@@ -172,9 +174,7 @@ export default function Home({ data }) {
           imgref="/Reach.png"
           body={
             <>
-              At Thrive Customer Relationship Manager (CRM) Software, I used{" "}
-              <b>React</b> with <b>TypeScript</b> to develop their real estate
-              agent CRM{" "}
+              At{" "}
               <a
                 className="homelink"
                 href="https://reachforagents.com/"
@@ -183,8 +183,9 @@ export default function Home({ data }) {
               >
                 Reach
               </a>
-              . Most notably, I overhauled the calendar component, working
-              intimately with the
+              , I used <b>React</b> with <b>TypeScript</b> to develop their real
+              estate agent customer relationship manager. Most notably, I
+              overhauled the calendar component, working intimately with the
               <b> Google API</b> to integrate Google Calendar.
             </>
           }
