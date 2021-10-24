@@ -18,6 +18,7 @@
   "dependencies": {
     "@fontsource/open-sans": "^4.5.0",
     "@fontsource/roboto-mono": "^4.5.0",
+    "browser-monads": "^1.0.0",
     "gatsby": "^3.13.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",

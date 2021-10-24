@@ -1,10 +1,30 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
+import { window } from "browser-monads";
 
-const windowSize = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-const mobile = windowSize < 500;
+function useWindowSize() {
+  const [windowSize, setWindowSize] = useState({
+    width: undefined,
+    height: undefined,
+  });
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }
+    window.addEventListener("resize", handleResize);
+    handleResize();
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return windowSize;
+}
 
 export default function Project({ title, img, gif, body, link }) {
-  console.log("viewport size: " + mobile)
+  const windowSize = useWindowSize();
+  const mobile = windowSize.width < 500;
   return (
     <div className="br2 project-container">
       <a className="no-underline disabled" href={!mobile ? link : undefined} target="_blank" rel="noreferrer">
