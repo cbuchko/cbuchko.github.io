@@ -279,7 +279,7 @@ export const query = graphql`
       edges {
         node {
           id
-          excerpt(pruneLength: 230)
+          excerpt(pruneLength: 200)
           frontmatter {
             title
             category

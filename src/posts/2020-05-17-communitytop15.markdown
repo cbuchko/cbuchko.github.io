@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: The Ten Best Episodes of Community
-featuredImage: ../assets/images/Community.jpg
+featuredImage: ../assets/images/Community2.jpg
 publish-date: 2020-05-17
 category: tv
 featured: true

@@ -118,10 +118,6 @@
 
 /** Blog Carousel Styles **/
 
-.carousel-item {
-  max-height: 26rem;
-}
-
 .carousel-info {
   background-color: rgb(0, 0, 0, 0);
   color: rgb(255, 255, 255, 0);
@@ -142,8 +138,8 @@
 }
 
 .rec.rec-slider-container {
-  width: 60%;
   margin: 0 4rem;
+  width: 60%;
 }
 
 .rec.rec-carousel-wrapper .rec-carousel button {
@@ -208,6 +204,13 @@
 
 .airplane {
   max-width: 10%;
+}
+
+@media screen and (max-width: 1300px) {
+  .carousel-excerpt {
+    padding-right: 8rem;
+    font-size: 1rem;
+  }
 }
 
 /** Mobile Styling **/
@@ -296,10 +299,6 @@
 
   /** Carousel **/
 
-  .carousel-item {
-    max-height: 10rem;
-  }
-
   .carousel-info {
     background-color: rgb(0, 0, 0, 0.6);
     color: rgb(255, 255, 255, 1);
@@ -315,8 +314,9 @@
   .carousel-excerpt {
     display: none;
   }
+
   .rec.rec-slider-container {
-    width: 90%;
+    width: 80%;
     margin: 0rem;
   }
 
