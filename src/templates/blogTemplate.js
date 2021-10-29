@@ -17,7 +17,7 @@ export default function Template({
         <Link className="link f4" title="Blog" to="/blog">
           &lt; Back
         </Link>
-        <h1 class="f2 nowrap">{frontmatter.title}</h1>
+        <h1 class="blog-post-title f2">{frontmatter.title}</h1>
         <span class="post-date">{fields.date}</span>
         <div name="post body" class="mt5">
           <Img className="blog-image br3" fluid={featuredImgFluid} />

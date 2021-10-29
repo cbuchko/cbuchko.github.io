@@ -1,6 +1,7 @@
 /* Blog List */
-.blog-container{
-  max-height: 28rem;
+.blog-container {
+  display: flex;
+  height: 28rem;
 }
 
 .blog-content {
@@ -13,13 +14,9 @@
   padding: 0 5.4rem;
 }
 
-.blog-container{
-  max-height: 28rem;
-}
-
 .blog-header {
   grid-area: header;
-  transition:0.2s;
+  transition: 0.2s;
 }
 
 .blog-header:hover {
@@ -32,12 +29,13 @@
   transform: scaleY(0.909090909090909);
 }
 
-.blog-text {
+.blog-page-text {
   grid-area: main;
+  font-size: 1.1rem;
 }
 
-.blog-tagline {
-  font-family: "Roboto Mono"
+.blogPage-header {
+  font-family: "Roboto Mono";
 }
 
 ul li {
@@ -65,6 +63,10 @@ ul li {
   margin-right: 42%;
 }
 
+.blog-post-title {
+  white-space: nowrap;
+}
+
 .blog-image {
   width: 100%;
   height: auto;
@@ -87,16 +89,15 @@ ul li {
   line-height: 1.75;
 }
 
-
 /** Script Styles **/
 .script-content {
-  font-family: 'Courier';
+  font-family: "Courier";
   font-size: 17px;
   font-weight: 550;
   line-height: 1.5;
   padding-top: 30px;
   text-align: left;
-} 
+}
 
 .dialogue-block {
   text-align: center;
@@ -112,7 +113,7 @@ ul li {
 .lead-in {
   padding-left: 10%;
   padding-right: 10%;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .character {
@@ -127,4 +128,94 @@ ul li {
   padding-right: 10%;
   padding-top: 1rem;
   margin-bottom: 17px;
+}
+
+@media screen and (max-width: 500px) {
+  .blogPage-header {
+    padding-top: 4rem;
+    padding-bottom: 0;
+  }
+
+  .blog-tagline {
+    display: none;
+  }
+
+  .blog-tools {
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 0;
+  }
+
+  .blog-search {
+    width: 90%;
+  }
+
+  .filter {
+    padding-left: 0;
+    padding-top: 1rem;
+  }
+  .filter .first-li {
+    padding-left: 0;
+  }
+
+  /** blog page styling **/
+
+  .blog-container {
+    display: inline-block;
+    padding-bottom: 8rem;
+  }
+
+  .blog-content {
+    padding: 0;
+    width: 100%;
+  }
+
+  .blog-header {
+    font-size: 1.75rem;
+  }
+
+  .blog-page-image {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .gatsby-image-wrapper {
+    width: 100%;
+  }
+
+  .blog-page-text {
+    font-size: 1rem;
+    padding-top: 0;
+  }
+
+  /** blog post styling **/
+  .blog-post-title {
+    white-space: normal;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .post {
+    margin-right: 0;
+  }
+
+  .blog-image {
+    margin-left: 0;
+  }
+
+  .blog-text {
+    font-size: 1rem;
+  }
+
+  .post p {
+    border-left: none;
+    padding-left: 0;
+    padding-block-start: 1em;
+    padding-block-end: 1em;
+  }
+
+  .gatsby-resp-image-wrapper {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
 }

@@ -12,7 +12,7 @@ export default function SearchBar({
         placeholder={placeholderText}
         value={searchVal}
         data-default=""
-        className={`roboto-mono f4 normal ba br3 pa2 ${isSticky && "sticky"}`}
+        className={`blog-search roboto-mono normal ba br3 pa2 ${isSticky && "sticky"}`}
       />
     );
   }
