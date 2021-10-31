@@ -2,7 +2,7 @@
 layout: blog-post
 title: "Comedy TV: Which Approach is Best?"
 featuredImage: ../assets/images/comedy_shows/ensamble.png
-publish-date: 2020-09-17
+publishDate: 2020-09-17
 featured: false
 category: tv
 ---

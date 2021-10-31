@@ -2,7 +2,7 @@
 layout: blog-post
 title: Analyzing the Winners at War Top Six
 featuredImage: ../assets/images/finale.jpeg
-publish-date: 2020-05-09
+publishDate: 2020-05-09
 category: survivor
 featured: false
 ---

@@ -2,7 +2,7 @@
 layout: script-post
 title: "Community Scene: Halloween Dance"
 featuredImage: ../assets/images/community_logo.jpg
-publish-date: 2020-11-12
+publishDate: 2020-11-12
 category: community
 featured: false
 ---

@@ -2,7 +2,7 @@
 layout: script-post
 title: "Community Scene: Banana Bread"
 featuredImage: ../assets/images/community_logo.jpg
-publish-date: 2020-07-26
+publishDate: 2020-07-26
 category: community
 featured: false
 ---

@@ -2,7 +2,7 @@
 layout: script-post
 title: "Community Scene: Traffic Light"
 featuredImage: ../assets/images/community_logo.jpg
-publish-date: 2021-01-09
+publishDate: 2021-01-09
 category: community
 featured: false
 ---

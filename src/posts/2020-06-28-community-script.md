@@ -2,7 +2,7 @@
 layout: script-post
 title: Writing a Scene for Community
 featuredImage: ../assets/images/community_logo.jpg
-publish-date: 2020-06-29
+publishDate: 2020-06-29
 category: community
 featured: false
 ---

@@ -2,7 +2,7 @@
 layout: blog-post
 title: "Survivor 41 Premiere Discussion"
 featuredImage: ../assets/images/Survivor_41/yase-tribal.jpeg
-publish-date: 2021-09-27
+publishDate: 2021-09-27
 category: survivor
 featured: false
 ---

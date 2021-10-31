@@ -2,7 +2,7 @@
 layout: blog-post
 title: Survivor Winners at War Retrospective
 featuredImage: ../assets/images/Survivor_Winners_at_War_logo.png
-publish-date: 2020-05-24
+publishDate: 2020-05-24
 category: survivor
 featured: false
 ---

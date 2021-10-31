@@ -2,7 +2,7 @@
 layout: blog-post
 title: "Survivor 41 First Impressions and Predictions"
 featuredImage: ../assets/images/Survivor_41/survivor-41-logo.jpg
-publish-date: 2021-09-21
+publishDate: 2021-09-21
 category: survivor
 featured: false
 ---

@@ -2,7 +2,7 @@
 layout: blog-post
 title: "Tim Robinson has Perfected Sketch Comedy"
 featuredImage: ../assets/images/timrobinson.jpg
-publish-date: 2021-08-12
+publishDate: 2021-08-12
 featured: true
 category: tv
 ---

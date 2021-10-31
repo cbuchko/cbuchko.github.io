@@ -2,7 +2,7 @@
 layout: blog-post
 title: "My Thoughts on the Entire Marvel Cinematic Universe"
 featuredImage: ../assets/images/MCU/marvel-logo-header.jpg
-publish-date: 2021-05-08
+publishDate: 2021-05-08
 featured: false
 category: none
 ---

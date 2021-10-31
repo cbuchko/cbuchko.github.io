@@ -6,6 +6,7 @@ import "../styles/tachyons.css";
 import "../styles/blog.css";
 import SearchBar from "../components/SearchBar";
 import { useWindowSize } from "../components/useWindowSize";
+import formatDate from "../util/formatDate";
 
 import { TemplateWrapper } from "../layouts/index";
 
@@ -55,7 +56,7 @@ const BlogTitle = (edge) => {
     >
       <div name="title">{edge.node.frontmatter.title}</div>
       <div name="date" class="f5 mt1 mid-gray">
-        {edge.node.fields.date}
+        {formatDate(edge.node.frontmatter.publishDate)}
       </div>
     </div>
   );
@@ -173,6 +174,7 @@ export const query = graphql`
           frontmatter {
             title
             category
+            publishDate
             featuredImage {
               childImageSharp {
                 fluid(maxWidth: 800) {

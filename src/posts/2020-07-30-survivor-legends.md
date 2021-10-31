@@ -2,7 +2,7 @@
 layout: blog-post
 title: Casting a Survivor Legends Season
 featuredImage: ../assets/images/survivor_legends/montage.jpg
-publish-date: 2020-08-10
+publishDate: 2020-08-10
 category: survivor
 featured: false
 ---
