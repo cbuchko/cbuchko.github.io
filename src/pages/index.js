@@ -55,7 +55,7 @@ const headerChildren = (
 );
 
 const footerChildren = (
-  <div id="contact" className="pt4 pb7 bg-lightest-blue flex justify-center">
+  <div id="contact" className="pt4 pb6 bg-lightest-blue flex justify-center">
     <div className="contact-form pr5">
       <div>
         <h1 className="section-header">Let's get in contact!</h1>
@@ -119,11 +119,27 @@ const footerChildren = (
         </div>
       </form>
     </div>
-    <div className="contact-me flex flex-column justify-center items-center pl5">
+    <div className="contact-me w-20 flex flex-column justify-center items-center pl5">
       <img class="br-100" src="/headshot.jpg" alt="headshot" />
       <div className="mw5 pt3 lh-copy">
         I'd love to hear from you, whether you have any questions, feedback or
         if you just want to talk!
+      </div>
+      <div className="widgets mt3">
+        <div className="w-20">
+          <a href="https://github.com/cbuchko" target="_blank" rel="noreferrer">
+            <img className="" src="/github.png" alt="github" />
+          </a>
+        </div>
+        <div className="w-20">
+          <a
+            href="https://www.linkedin.com/in/connor-buchko-17932116a/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="/linkedin.png" alt="LinkedIn" />
+          </a>
+        </div>
       </div>
     </div>
   </div>

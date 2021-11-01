@@ -67,11 +67,32 @@ body {
 }
 
 /** footer stlying **/
+
 .widgets {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #cdecff;
+}
+
+.widgets li {
+  display: inline;
+  margin: 5px 20px;
+}
+
+.widgets div {
+  display: inline;
+  margin: 5px 20px;
+}
+
+.widgets img {
+  background-color: white;
+  border-radius: 16px;
+  height: auto;
+  width: 70px;
+}
+
+.footer {
   list-style-type: none;
   padding: 1rem 0;
   flex-shrink: 0;
@@ -80,16 +101,8 @@ body {
   width: 100%;
 }
 
-.widgets li {
-  display: inline;
-  margin: 5px 20px;
-}
-
-.widgets img {
-  background-color: white;
+.footer img {
   border-radius: 22px;
-  height: auto;
-  width: 70px;
 }
 
 @media screen and (max-width: 1650px) {
