@@ -78,15 +78,15 @@ ul li {
 }
 
 .post p {
-  border-left: solid;
+  /* border-left: solid;
   border-color: #cdecff;
-  border-width: 0.5rem;
-  padding-left: 0.5rem;
-  margin-block-start: 0;
+  border-width: 0.5rem; */
+  /* padding-left: 0.5rem; */
+  /* margin-block-start: 0;
   margin-block-end: 0;
   padding-block-start: 0.5em;
-  padding-block-end: 0.5em;
-  line-height: 1.75;
+  padding-block-end: 0.5em; */
+  line-height: 1.75; 
 }
 
 /** Script Styles **/
