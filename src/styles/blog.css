@@ -70,7 +70,7 @@ ul li {
 .blog-image {
   width: 100%;
   height: auto;
-  margin-left: 5%;
+  /* margin-left: 5%; */
 }
 
 .blog-text {
