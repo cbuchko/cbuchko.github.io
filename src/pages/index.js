@@ -241,9 +241,11 @@ export default function Home({ data }) {
           />
           <Project
             title="Platforming Game"
-            img="/platformerexamplestatic.PNG"
-            gif="/platformerexamplegif.gif"
-            body="A side-scrolling platforming game made in Unity with C#. Developed with an emphasis on jumping physics."
+            img="/motherload.PNG"
+            gif="/motherloadgif.gif"
+            body="My first published Unity project: a mining survival game. Fully playable on itch.io."
+            link="https://cbuchko.itch.io/drillgame"
+            itch
           />
           <Project
             title="Multiplayer Racing Game"
