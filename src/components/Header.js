@@ -10,7 +10,7 @@ export default function Header({ headerChildren }) {
         <Link className="header-title f3 mr3" title="home" to="/">
           {"Connor Buchko"}
         </Link>
-        <ul className="ma0 pa0 f4">
+        <ul className="header-list ma0 pa0 f4">
           <li className="ph4">
             <Link className="nav link" title="home" to="/">
               {"Home"}

@@ -22,6 +22,10 @@ body {
   color: #9b5094;
 }
 
+.header-list li {
+  display: inline
+}
+
 .nav:hover {
   font-weight: bold;
   border-bottom: solid;

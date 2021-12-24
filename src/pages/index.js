@@ -172,14 +172,17 @@ export default function Home({ data }) {
       </h1>
       <div className="resume-block tc mb5">
         Check out my{" "}
-        <a
+        <Link className="homelink" title="resume" to="/resume">
+          {"Résumé"}
+        </Link>
+        {/* <a
           className="homelink"
           href="/resume.pdf"
           target="_blank"
           rel="noreferrer"
         >
-          Résumé
-        </a>{" "}
+         
+        </a>{" "} */}{" "}
         for more detailed descriptions.
       </div>
       <div className="experience-container flex justify-center">
@@ -202,7 +205,7 @@ export default function Home({ data }) {
               , I used <b>React</b> with <b>TypeScript</b> to develop their real
               estate agent customer relationship manager. Most notably, I
               overhauled the calendar component, working intimately with the
-              <b> Google API</b> to integrate Google Calendar.
+              <b> Google API</b>  and <b>Firebase</b> to integrate Google Calendar.
             </>
           }
         />

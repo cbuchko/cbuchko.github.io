@@ -1,0 +1,49 @@
+.resume-header {
+ display: grid;
+ grid-template-columns: 4fr 10fr;
+}
+
+.resume-content {
+  display: grid;
+  grid-template-columns: 4fr 10fr;
+}
+
+.roboto-mono-font {
+  font-family: "Roboto Mono";
+}
+
+.resume-section-header {
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  margin-bottom: 1rem;
+  font-family: "Roboto Mono";
+  font-size: 1.5rem;
+}
+
+.experience-header {
+  display: flex;
+  justify-content:space-between;
+}
+
+.resume-skills-languages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 0.15rem;
+}
+
+.resume-skills-technologies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 0.15rem;
+}
+
+.grid-item {
+  align-self: center;
+  justify-self: center;
+}
+
+.resume-list li {
+  padding-bottom: 0.25rem;
+}

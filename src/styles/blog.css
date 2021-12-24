@@ -38,11 +38,8 @@
   font-family: "Roboto Mono";
 }
 
-ul li {
-  display: inline;
-}
-
 .filter li {
+  display: inline;
   padding: 0.5rem 1rem;
   border-left: 1px solid;
 }
