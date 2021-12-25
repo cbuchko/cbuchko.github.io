@@ -1,8 +1,3 @@
-.resume-header {
- display: grid;
- grid-template-columns: 4fr 10fr;
-}
-
 .resume-content {
   display: grid;
   grid-template-columns: 4fr 10fr;
@@ -12,12 +7,32 @@
   font-family: "Roboto Mono";
 }
 
+.resume-name {
+  font-size: 1.75rem;
+}
+
 .resume-section-header {
   border-bottom: solid;
   border-bottom-width: 1px;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.25rem;
   font-family: "Roboto Mono";
   font-size: 1.5rem;
+  align-items: center;
+}
+
+.reference-margin {
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 0.25rem;
+  font-family: "Roboto Mono";
+  font-size: 1.5rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.experience-padding {
+ padding-top: 4.4rem;
 }
 
 .experience-header {
@@ -36,7 +51,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-row-gap: 0.15rem;
+  grid-row-gap: 0.25rem;
+}
+
+.resume-skills-other {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .grid-item {
@@ -46,4 +66,35 @@
 
 .resume-list li {
   padding-bottom: 0.25rem;
+}
+
+.special-spacer {
+  padding-top: 1.25rem;
+}
+
+.contact-icon {
+  max-width: 1rem;
+  height: auto;
+  padding-right: 0.5rem;
+}
+
+.header-icon {
+  max-height: 2rem;
+  max-width: 3rem;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+
+.header-icon-first {
+  max-height: 2rem;
+  max-width: 3rem;
+  padding-left: 1rem;
+}
+
+a:visited {
+  color: black;
+}
+
+.white-visited a:visited {
+  color: white;
 }

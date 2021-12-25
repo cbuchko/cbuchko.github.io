@@ -172,17 +172,14 @@ export default function Home({ data }) {
       </h1>
       <div className="resume-block tc mb5">
         Check out my{" "}
-        <Link className="homelink" title="resume" to="/resume">
-          {"Résumé"}
-        </Link>
-        {/* <a
+        {/* <Link to="/resume">Resume</Link> */}
+        <a
           className="homelink"
           href="/resume.pdf"
           target="_blank"
           rel="noreferrer"
-        >
-         
-        </a>{" "} */}{" "}
+        >Resume    
+        </a>{" "}
         for more detailed descriptions.
       </div>
       <div className="experience-container flex justify-center">
