@@ -108,12 +108,12 @@ export default function Resume({ data }) {
             </li>
             <li>
               Programmed the backend with the <b>Firebase</b> platform. Lowered
-              costs by writing efficient queries that minimized
-              unnecessary reads and writes to the database.
+              costs by writing efficient queries that minimized unnecessary
+              reads and writes to the database.
             </li>
             <li>
-              Worked in a four person startup team where I was frequently left
-              to my own devices and self-directed progress.
+              Worked in a four person startup team, responsible for all
+              technical aspects of the product and often self-directed progress.
             </li>
           </ul>
           <div className="experience-header">
@@ -128,8 +128,8 @@ export default function Resume({ data }) {
             </li>
             <li>
               Tested and approved developer pull requests through{" "}
-              <b>Azure DevOps</b>, gaining a strong appreciation for software
-              quality and test-driven development.
+              <b>Azure DevOps</b>, cohesively reporting any problems and
+              ensuring software quality.
             </li>
             <li>
               Wrote <b>functional automated testing</b> scripts using
