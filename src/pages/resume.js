@@ -30,7 +30,10 @@ export default function Resume({ data }) {
             <img className="header-icon" src="/cap.png" />
           </div>
           <div className="">Bachelor of Software Engineering</div>
-          <div className="">University of Victoria</div>
+          <div className="flex">
+            <div>University of Victoria</div>
+            <div className="pl3 ml2">(3.7 GPA)</div>
+          </div>
           <div className="">Sept. 2017 - Present</div>
           <div className="flex resume-section-header">
             <div className="b pt4">SKILLS</div>
@@ -51,13 +54,16 @@ export default function Resume({ data }) {
             <div>Gatsby</div>
             <div>Firebase</div>
             <div>Unity</div>
-            <div>WDIO</div>
             <div>MaterialUI</div>
+            <div>HTML</div>
+            <div>CSS</div>
           </div>
           <div className="pt4 pb2 b">Other Notable Skills</div>
           <div className="resume-skills-other">
             <div>UI / UX Design </div>
             <div>Agile</div>
+            <div>Leadership</div>
+            <div>Teamwork</div>
           </div>
           <div className="flex resume-section-header">
             <div className="b pt4">INTERESTS</div>
@@ -73,14 +79,16 @@ export default function Resume({ data }) {
           </div>
           <div className="b pt3">Video Editing</div>
           <div className="white-visited">
-            I love making comedic videos, one of my creations can be found{" "}
+            Enjoy making comedic videos, one of my creations can be found{" "}
             <a href="https://www.youtube.com/watch?v=G8twOFFJqhM&t">here</a> or
             on my website.
           </div>
           <div></div>
         </div>
         <div className="pa3 pl3 mw65">
-          <div className="resume-section-header experience-padding">EXPERIENCE</div>
+          <div className="resume-section-header experience-padding">
+            EXPERIENCE
+          </div>
           <div className="experience-header">
             <div className="b">Software Developer Co-op</div>
             <div>Jan. 2021 - Aug. 2021</div>
@@ -89,22 +97,23 @@ export default function Resume({ data }) {
           <ul className="resume-list">
             <li>
               Developed the real estate agent CRM "Reach for Agents". Used{" "}
-              <b>React</b> with <b>TypeScript</b> to implement features, fix
-              bugs and design components.
+              <b>React</b> with <b>TypeScript</b> to implement dozens of
+              features, including user permissions, entity archiving and list
+              reordering.
             </li>
             <li>
               Integrated the <b>Google Calendar API</b> into the CRM's calendar
-              component. Involved working intimately with React component
-              libraries, combining in-house logic with library components.
+              component. Implemented React component libraries to design an
+              independent version of Google Calendar.
             </li>
             <li>
-              Worked with the backend platform <b>Firebase</b>, learning the
-              importance of efficiency when querying and writing to the
-              database.
+              Programmed the backend with the <b>Firebase</b> platform. Lowered
+              costs by writing efficient queries that minimized
+              unnecessary reads and writes to the database.
             </li>
             <li>
-              Part of an intimate startup team where I was frequently left to my
-              own devices and required self direction.
+              Worked in a four person startup team where I was frequently left
+              to my own devices and self-directed progress.
             </li>
           </ul>
           <div className="experience-header">
@@ -115,17 +124,17 @@ export default function Resume({ data }) {
           <ul className="resume-list">
             <li>
               Found and reported defects in upcoming generations of Geocortex
-              App Designer, demanding effective and concise communication skills
+              App Designer, tracking over 100 issues during the work term.
             </li>
             <li>
-              Tested and approved developer pull requests through <b>Azure DevOps</b>,
-              gaining a strong appreciation for software quality and test-driven
-              development.
+              Tested and approved developer pull requests through{" "}
+              <b>Azure DevOps</b>, gaining a strong appreciation for software
+              quality and test-driven development.
             </li>
             <li>
-              Wrote <b>functional automated testing</b> scripts using TypeScript,
-              helping my team complete two regression cycles and minimize issues
-              before pushing to production.
+              Wrote <b>functional automated testing</b> scripts using
+              TypeScript, helping the team complete two regression cycles and
+              minimize issues before pushing to production.
             </li>
             <li>
               Worked in an agile team, learning about the methodology and its
@@ -134,13 +143,14 @@ export default function Resume({ data }) {
           </ul>
           <div className="resume-section-header special-spacer">PROJECTS</div>
           <div className="b pb1">Gatsby Web Development</div>
-          <div>
+          <div className="black-visited">
             Designed a personal portfolio and blog website using <b>React</b>,{" "}
-            <b>TypeScript</b> and <b>Gatsby</b>. It is hosted by GitHub Pages at{" "}
+            <b>TypeScript</b> and <b>Gatsby</b>. It is mobile responsive and
+            hosted by GitHub Pages at{" "}
             <a href="https://connorbuchko.com/">connorbuchko.com</a>.
           </div>
           <div className="b pt3 pb1">Unity Game Development</div>
-          <div>
+          <div className="black-visited">
             Continuously experimenting with the Unity game engine using{" "}
             <b>C#</b>. Recently published my first finished game to{" "}
             <a href="https://cbuchko.itch.io/drillgame">itch.io</a>.

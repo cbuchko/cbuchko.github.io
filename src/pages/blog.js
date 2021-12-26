@@ -28,13 +28,6 @@ const FilterBlog = ({ filterColor, handleFilter, mobile }) => {
       >
         TV Reviews
       </li>
-      <li
-        key="community"
-        style={filterColor("community")}
-        onMouseDown={() => handleFilter("community")}
-      >
-        {mobile ? "Writing" : "Creative Writing"}
-      </li>
     </ul>
   );
 };
@@ -72,7 +65,7 @@ const BlogExcerpt = (edge) => {
 
 const BlogContainer = ({ slug, children }) => {
   return (
-    <Link className="link" to={`/${slug}`}>
+    <Link className="link blog-list" to={`/${slug}`}>
       <div className="pv4 bb-ns bw1-ns b--moon-gray">
         <div class="blog-container">{children}</div>
       </div>

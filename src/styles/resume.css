@@ -13,7 +13,7 @@
 
 .resume-section-header {
   border-bottom: solid;
-  border-bottom-width: 1px;
+  border-bottom-width: 2px;
   margin-bottom: 1.5rem;
   padding-bottom: 0.25rem;
   font-family: "Roboto Mono";
@@ -23,7 +23,7 @@
 
 .reference-margin {
   border-bottom: solid;
-  border-bottom-width: 1px;
+  border-bottom-width: 2px;
   padding-bottom: 0.25rem;
   font-family: "Roboto Mono";
   font-size: 1.5rem;
@@ -32,7 +32,7 @@
 }
 
 .experience-padding {
- padding-top: 4.4rem;
+ padding-top: 4.3rem;
 }
 
 .experience-header {
@@ -91,7 +91,7 @@
   padding-left: 1rem;
 }
 
-a:visited {
+.black-visited a:visited {
   color: black;
 }
 

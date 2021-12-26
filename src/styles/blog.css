@@ -54,6 +54,10 @@
   cursor: pointer;
 }
 
+.blog-list:last-child div {
+  border-bottom: none;
+}
+
 /*Blog Post*/
 
 .post {
