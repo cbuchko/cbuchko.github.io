@@ -67,10 +67,17 @@
 
 /** Projects Styling **/
 
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 0 40%;
+}
+
 .project-container {
-  box-shadow: 0px 16px 8px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 12px 8px 0px rgba(0, 0, 0, 0.4);
   max-height: 15rem;
-  margin: 1rem 1.5rem;
+  margin: 1.5rem 1.5rem;
 }
 
 .gif {
@@ -213,6 +220,64 @@
   }
 }
 
+@media screen and (max-width: 1100px) {
+  .graphic {
+    display: none;
+  }
+  
+  /** experience **/
+  .experience{
+    margin: 2rem;
+  }
+
+  /** contact **/
+
+  #contact {
+    display: flex;
+    padding-bottom: 8rem;
+    padding-top: 0;
+  }
+
+  .contact-form {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 1rem;
+    padding-top: 2rem;
+    margin: 0 4rem 10%;
+  }
+
+  /* form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+
+  .contact-me {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  /** experience **/
+  .resume-block{
+    padding: 0 0.75rem;
+  }
+
+  .experience-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience{
+    margin: 0;
+  }
+
+  .experience:first-of-type{
+    margin-bottom: 8rem;
+  }
+}
 /** Mobile Styling **/
 
 @media screen and (max-width: 500px) {
@@ -221,10 +286,6 @@
   .hero {
     display: inline-block;
     margin: 1rem;
-  }
-
-  .graphic {
-    display: none;
   }
 
   .title {
@@ -252,28 +313,13 @@
     margin-top: 4rem;
   }
 
-  /** experience **/
-  .resume-block{
-    padding: 0 0.75rem;
-  }
-
-  .experience-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .experience{
-    margin: 0;
-  }
-
-  .experience:first-of-type{
-    margin-bottom: 8rem;
-  }
   /** projects **/
 
   .projects-container {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
   }
 
   .project-container {
@@ -329,32 +375,5 @@
     text-align: center;
     margin: 0;
     margin-top: 4rem;
-  }
-
-  /** contact **/
-
-  #contact {
-    display: flex;
-    padding-bottom: 8rem;
-    padding-top: 0;
-  }
-
-  .contact-form {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    padding: 1rem;
-    padding-top: 0;
-    margin: 0 4rem 10%;
-  }
-
-  /* form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  } */
-
-  .contact-me {
-    display: none;
   }
 }

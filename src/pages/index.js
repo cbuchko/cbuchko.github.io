@@ -171,14 +171,14 @@ export default function Home({ data }) {
         Experience
       </h1>
       <div className="resume-block tc mb5">
-        Check out my{" "}
-        {/* <Link to="/resume">Resume</Link> */}
+        {/* Check out my <Link to="/resume">Resume</Link> */}
         <a
           className="homelink"
           href="/resume.pdf"
           target="_blank"
           rel="noreferrer"
-        >Resume    
+        >
+          Resume
         </a>{" "}
         for more detailed descriptions.
       </div>
@@ -202,7 +202,8 @@ export default function Home({ data }) {
               , I used <b>React</b> with <b>TypeScript</b> to develop their real
               estate agent customer relationship manager. Most notably, I
               overhauled the calendar component, working intimately with the
-              <b> Google API</b>  and <b>Firebase</b> to integrate Google Calendar.
+              <b> Google API</b> and <b>Firebase</b> to integrate Google
+              Calendar.
             </>
           }
         />
@@ -236,8 +237,9 @@ export default function Home({ data }) {
             title="Survival Game"
             img="/gameexamplestatic.PNG"
             gif="/gameexamplegif.gif"
-            body="A survival game made in Unity with C#. All of the assets and animations were drawn in Asesprite."
+            body="A survival game made in Unity with C#. All of the assets and animations were drawn in Aseprite."
             link="https://github.com/cbuchko/gamedev"
+            imgType="git"
           />
           <Project
             title="Platforming Game"
@@ -245,7 +247,7 @@ export default function Home({ data }) {
             gif="/motherloadgif.gif"
             body="My first published Unity project: a mining survival game. Fully playable on itch.io."
             link="https://cbuchko.itch.io/drillgame"
-            itch
+            imgType="itch"
           />
           <Project
             title="Multiplayer Racing Game"
@@ -253,10 +255,16 @@ export default function Home({ data }) {
             gif="/racegamegif.gif"
             body="A multiplayer platforming race game made without an engine, using JavaScript and Socket.io."
             link="https://github.com/cbuchko/race-game"
+            imgType="git"
           />
-        </div>
-        <div className="project-shelf bg-lightest-blue pv3 mh6 br-pill">
-          &nbsp;
+          <Project
+            title="Focus Frames"
+            img="/focusframes.png"
+            gif="/focusframes.png"
+            body="A fun comedy skit I made as the final presentation for a class."
+            link="https://www.youtube.com/watch?v=G8twOFFJqhM"
+            imgType="youtube"
+          />
         </div>
       </div>
       <h1 className="section-header tc mt7 mb5">Featured Blog Posts</h1>

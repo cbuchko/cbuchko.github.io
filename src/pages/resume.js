@@ -80,8 +80,7 @@ export default function Resume({ data }) {
           <div className="b pt3">Video Editing</div>
           <div className="white-visited">
             Enjoy making comedic videos, one of my creations can be found{" "}
-            <a href="https://www.youtube.com/watch?v=G8twOFFJqhM&t">here</a> or
-            on my website.
+            <a href="https://www.youtube.com/watch?v=G8twOFFJqhM&t">here</a> or on my website.
           </div>
           <div></div>
         </div>
@@ -93,12 +92,12 @@ export default function Resume({ data }) {
             <div className="b">Software Developer Co-op</div>
             <div>Jan. 2021 - Aug. 2021</div>
           </div>
-          <div className="">Thrive CRM Software Inc.</div>
+          <div className="">Thrive CRM Software</div>
           <ul className="resume-list">
             <li>
-              Developed the real estate agent CRM "Reach for Agents". Used{" "}
+              Developed the real estate agent CRM platform "Reach for Agents". Used{" "}
               <b>React</b> with <b>TypeScript</b> to implement dozens of
-              features, including user permissions, entity archiving and list
+              features, including permissions, archiving and list
               reordering.
             </li>
             <li>
