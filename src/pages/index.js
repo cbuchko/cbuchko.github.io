@@ -171,7 +171,7 @@ export default function Home({ data }) {
         Experience
       </h1>
       <div className="resume-block tc mb5">
-        {/* Check out my <Link to="/resume">Resume</Link> */}
+        Check out my {/*<Link to="/resume">Resume</Link>  */}
         <a
           className="homelink"
           href="/resume.pdf"
