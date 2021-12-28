@@ -23,12 +23,12 @@ This plotting issue is very subtle, but feels distinctly un-Community. This soun
 
 The season is funny. The quips and banter are still as clever as the first three seasons. Genuinely it was surprising how funny it is. Even the worst episodes have the iconic lightning-fast back and forth the show is known for. The actors play a large role in this. Donald Glover is going to elevate any material he's given. Everyone does a fantastic job and nobody phones it in.
 
-And for all the contrived episodes, there are an equal number of great grounded episodes. "Herstory of Dance" is a simple story about Britta defying the groups expectations of her. "Intro to Knots" is a classic Community bottle episode that is 100% dialogue driven. And "Basic Human Anatomy" has great emotional growth with Troy and Britta's breakup.
+For all the contrived episodes, there are an equal number of great grounded episodes. "Herstory of Dance" is a simple story about Britta defying the groups expectations of her. "Intro to Knots" is a classic Community bottle episode that is 100% dialogue driven. And "Basic Human Anatomy" has great emotional growth with Troy and Britta's breakup.
 
 Season four is good television. All the visuals are the classic characters and settings you'd expect. Everything you hear is clever dialogue and funny jokes. But the heart is missing. There's an itchy, scratchy feeling that something isn't quite the same. In a vacuum, these missteps would be forgivable. The season has much higher peaks than its valleys and even its valleys aren't disgraceful.
 
 However, in the context of the behemoth that Harmon left behind, the fans were outraged. Part of the outrage was fans feeling a need to stand beside Harmon and defend his vision. This drama snowballed overtime, becoming larger than itself. Nowadays it's hard for season four to breathe without being dog-piled with hatred.
 
-And this narrative of hatred is the issue. If you tell someone they're gonna hate something before they try it, they're probably gonna hate it. Instead of approaching it with an open mind, they will have a critical lens. They'll be searching for reasons to hate it. It becomes a self-fulfilling prophecy. And when people watch season four, they focus on the negative instead of the positive.
+This narrative of hatred is the issue. If you tell someone they're gonna hate something before they try it, they're probably gonna hate it. Instead of approaching it with an open mind, they will have a critical lens. They'll be searching for reasons to hate it. It becomes a self-fulfilling prophecy. And when people watch season four, they focus on the negative instead of the positive.
 
 Next time you watch Community, don't expect it to be bad, hope for it to be good. You might find yourself enjoying it.
