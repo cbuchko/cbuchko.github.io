@@ -7,7 +7,7 @@ featured: false
 category: tv
 ---
 
-Over the summer I watched three comedy shows that approached the genre in distinct ways. The 2006 NBC sitcom '30 Rock', the adult cartoon phenomenon 'Rick and Morty' and the cringe-fest unscripted documentary 'Nathan For You'. After watching all three, I realized that I loved them all but for different reasons. I thought it could be insightful to take a closer look, to examine what makes each of these shows good, and how the different approaches allow them to flourish.
+Over the summer I watched three comedy shows that approached the genre in distinct ways. The 2006 NBC sitcom '30 Rock', the adult cartoon phenomenon 'Rick and Morty' and the cringe-fest unscripted reality series 'Nathan For You'. After watching all three, I realized that I loved them all but for different reasons. I thought it could be insightful to take a closer look, to examine what makes each of these shows good, and how the different approaches allow them to flourish.
 
 ## 30 Rock
 
@@ -15,7 +15,7 @@ Over the summer I watched three comedy shows that approached the genre in distin
 
 I am a huge fan of single-camera sitcoms and this summer I finally gave 30 Rock a try. The main thing that stood out to me was the writing. Every episode is very carefully crafted, with jokes that fly at you so fast you might miss them. It does a really good job at establishing its different storylines and intertwining them as the episode goes on. Most episodes end in an immensely satisfying payoff where everything comes together.
 
-The sitcom-style allowed 30 Rock to have the best story arcs and character development of the three shows I watched. It also had the most relatable characters. My main complaint with 30 Rock is that the episode quality was disappointingly inconsistent. Some episodes blew me away with their cleverness but a lot more ended up being pretty forgettable. This is a problem that sitcoms have had since their inception. The truth is that when a show has over 100 episodes, not all of them can be masterpieces.
+The sitcom style allowed 30 Rock to have the best story arcs and character development of the three shows I watched. It also had the most relatable characters. My main complaint with 30 Rock is that the episode quality was disappointingly inconsistent. Some episodes blew me away with their cleverness but a lot more ended up being pretty forgettable. This is a problem that sitcoms have had since their inception. The truth is that when a show has over 100 episodes, not all of them can be masterpieces.
 
 ## Rick and Morty 
 
