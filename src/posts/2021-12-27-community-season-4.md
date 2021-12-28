@@ -13,7 +13,7 @@ The underlying flaw with season four was the new writing team. They misunderstoo
 
 Let's compare a season two episode with a season four episode. The episode from season two: "Abed's Uncontrollable Christmas", was entirely in claymation. The episode from season four: "Intro to Felt Surrogacy", was done with puppets. Both of these episodes have an obvious gimmick but had much different receptions.
 
-Dan Harmon has said when he wrote episodes it was never about "let's do a claymation episode this week". The message and the character arcs always came first. "Abed's Uncontrollable Christmas" was fundamentally a Christmas episode about Abed and his mother. The claymation style came secondary as a natural progression. 
+Dan Harmon has said when he wrote scripts it was never about "let's do a claymation episode this week". The message and the character arcs always came first. "Abed's Uncontrollable Christmas" was fundamentally a Christmas special about Abed and his mother. The claymation style came secondary as a natural progression. 
 
 It's blatant that "Intro to Felt Surrogacy" started with the conversation "let's do a puppet episode this week". The rest of the plot is painfully contrived around justifying the puppets. And at the end of the episode, it's still confusing why the story matters at all. The characters don't go through any meaningful growth and they aren't faced with any difficult decisions.
 
@@ -23,11 +23,11 @@ This plotting issue is very subtle, but feels distinctly un-Community. This soun
 
 The season is funny. The quips and banter are still as clever as the first three seasons. Genuinely it was surprising how funny it is. Even the worst episodes have the iconic lightning-fast back and forth the show is known for. The actors play a large role in this. Donald Glover is going to elevate any material he's given. Everyone does a fantastic job and nobody phones it in.
 
-For all the contrived episodes, there are an equal number of great grounded episodes. "Herstory of Dance" is a simple story about Britta defying the groups expectations of her. "Intro to Knots" is a classic Community bottle episode that is 100% dialogue driven. And "Basic Human Anatomy" has great emotional growth with Troy and Britta's breakup.
+For all the contrived episodes, there are more great grounded episodes. "Herstory of Dance" is a simple story about Britta defying the groups expectations. "Intro to Knots" is a classic Community bottle episode that is 100% dialogue driven. And "Basic Human Anatomy" has great emotional growth with Troy and Britta's breakup. Episodes like these successfully capture vintage Community.
 
-Season four is good television. All the visuals are the classic characters and settings you'd expect. Everything you hear is clever dialogue and funny jokes. But the heart is missing. There's an itchy, scratchy feeling that something isn't quite the same. In a vacuum, these missteps would be forgivable. The season has much higher peaks than its valleys and even its valleys aren't disgraceful.
+Nearly every season four episode is good television. All the visuals are the classic characters and settings you'd expect. Everything you hear is clever dialogue and funny jokes. But the heart is missing. There's an itchy, scratchy feeling that something isn't quite the same. In a vacuum, this misstep would be forgivable. The season has much higher peaks than its valleys and even its valleys aren't disgraceful.
 
-However, in the context of the behemoth that Harmon left behind, the fans were outraged. Part of the outrage was fans feeling a need to stand beside Harmon and defend his vision. This drama snowballed overtime, becoming larger than itself. Nowadays it's hard for season four to breathe without being dog-piled with hatred.
+However, in the context of the behemoth that Harmon left behind, the fans were outraged. Part of the outrage was fans feeling an obligation to stand beside Harmon and defend his vision. The contrived episodes were crucified and the fantastic episodes were ignored. The drama snowballed, and now season four can't breathe without being dogpiled with hatred.
 
 This narrative of hatred is the issue. If you tell someone they're gonna hate something before they try it, they're probably gonna hate it. Instead of approaching it with an open mind, they will have a critical lens. They'll be searching for reasons to hate it. It becomes a self-fulfilling prophecy. And when people watch season four, they focus on the negative instead of the positive.
 
