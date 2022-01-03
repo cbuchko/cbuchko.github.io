@@ -14,7 +14,7 @@ import CarouselItem from "../components/CarouselItem";
 
 const headerChildren = (
   <div className="m0 mb5 bg-lightest-blue curved">
-    <div className="hero pt6 ">
+    <div className="hero pt5">
       <div className="message flex flex-column justify-center">
         <div className="tagline f5 pb2 flex">
           <div className="pr2">I code.</div>
@@ -26,7 +26,7 @@ const headerChildren = (
           I'm a 5th year Software Engineering student at the University of
           Victoria, currently pursuing a Co-op position for the Fall of 2022.
         </div>
-        <div className="CTA-container pt5">
+        <div className="CTA-container pt5 pb3">
           <a href="#experience">
             <div className="CTA" type="button">
               VIEW MY WORK
@@ -35,13 +35,13 @@ const headerChildren = (
         </div>
       </div>
       <div className="graphic flex justify-end">
-        <img class="w-70" src="/cartoon.png" alt="drawing of me" />
+        <img class="w-60" src="/cartoon.png" alt="drawing of me" />
       </div>
     </div>
     <svg
       id="wave"
       style={{ transform: "rotate(0deg);", transition: "0.3s" }}
-      viewBox="0 50 1440 330"
+      viewBox="0 25 1440 330"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
     >

@@ -56,9 +56,16 @@ const BlogTitle = (edge) => {
 };
 
 const BlogExcerpt = (edge) => {
+  let excerpt = edge.node.excerpt;
+  const cutOff = useWindowSize();
+
+  if(cutOff < 1400 && cutOff > 500){
+    excerpt = excerpt.slice(0, -65);
+    excerpt = excerpt + "...";
+  }
   return (
     <div name="excerpt" class="blog-page-text f4 pv4 lh-large">
-      {edge.node.excerpt}
+      {excerpt}
     </div>
   );
 };
@@ -76,7 +83,7 @@ const BlogContainer = ({ slug, children }) => {
 export default function Blog({ data }) {
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState("");
-  const mobile = useWindowSize();
+  const mobile = useWindowSize() < 900;
 
   const handleSearch = (e) => {
     setSearch(e.target.value);

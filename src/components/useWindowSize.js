@@ -19,5 +19,5 @@ export const useWindowSize = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  return windowSize.width < 550;
+  return windowSize.width;
 }

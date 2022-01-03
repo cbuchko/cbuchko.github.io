@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-left: 15%;
-  margin-right: 15%;
+  margin-right: 12%;
 }
 
 .message {
@@ -220,11 +220,14 @@
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1260px) {
   .graphic {
     display: none;
   }
   
+  .hero {
+    grid-template-columns: 2fr 1fr;
+  }
   /** experience **/
   .experience{
     margin: 2rem;
@@ -239,12 +242,19 @@
   }
 
   .contact-form {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
     padding: 1rem;
     padding-top: 2rem;
     margin: 0 4rem 10%;
+  }
+
+  .bloglink{
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    margin-top: 4rem;
   }
 
   /* form {
@@ -254,6 +264,13 @@
   } */
 
   .contact-me {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 950px) {
+
+  .carousel-excerpt {
     display: none;
   }
 }
@@ -280,7 +297,7 @@
 }
 /** Mobile Styling **/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   /** hero **/
 
   .hero {
@@ -357,10 +374,6 @@
     font-size: 1.5rem;
   }
 
-  .carousel-excerpt {
-    display: none;
-  }
-
   .rec.rec-slider-container {
     width: 80%;
     margin: 0rem;
@@ -368,12 +381,5 @@
 
   .rec.rec-carousel-wrapper .rec-carousel button {
     display: none;
-  }
-
-  .bloglink{
-    justify-content: center;
-    text-align: center;
-    margin: 0;
-    margin-top: 4rem;
   }
 }

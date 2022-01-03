@@ -35,7 +35,7 @@ const showImage = (link, mobile, imgType) => {
   }
 }
 export default function Project({ title, img, gif, body, link, imgType }) {
-  const mobile = useWindowSize();
+  const mobile = useWindowSize() < 900;
   return (
     <div className="br2 project-container">
       <a

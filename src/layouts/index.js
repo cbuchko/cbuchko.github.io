@@ -10,7 +10,7 @@ export const TemplateWrapper = ({
   headerChildren,
   footerChildren,
 }) => {
-  const mobile = useWindowSize();
+  const mobile = useWindowSize() < 900;
   return (
     <body className="roboto relative">
       <Helmet>
