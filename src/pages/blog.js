@@ -10,7 +10,7 @@ import formatDate from "../util/formatDate";
 
 import { TemplateWrapper } from "../layouts/index";
 
-const FilterBlog = ({ filterColor, handleFilter, mobile }) => {
+const FilterBlog = ({ filterColor, handleFilter }) => {
   return (
     <ul class="filter">
       <li
@@ -55,9 +55,8 @@ const BlogTitle = (edge) => {
   );
 };
 
-const BlogExcerpt = (edge) => {
+const BlogExcerpt = (edge, cutOff) => {
   let excerpt = edge.node.excerpt;
-  const cutOff = useWindowSize();
 
   if(cutOff < 1400 && cutOff > 500){
     excerpt = excerpt.slice(0, -65);
@@ -81,14 +80,16 @@ const BlogContainer = ({ slug, children }) => {
 };
 
 export default function Blog({ data }) {
+  const windowSize = useWindowSize();
+  const mobile = windowSize < 900;
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState("");
-  const mobile = useWindowSize() < 900;
 
   const handleSearch = (e) => {
     setSearch(e.target.value);
   };
   const handleFilter = (e) => {
+    console.log(e === filter);
     e === filter ? setFilter("") : setFilter(e);
   };
   const filteredBlogs = data.allMarkdownRemark.edges.filter(
@@ -106,7 +107,7 @@ export default function Blog({ data }) {
         <BlogContainer slug={slug}>
           {BlogTitle(edge)}
           {BlogImage(edge)}
-          {BlogExcerpt(edge)}
+          {BlogExcerpt(edge, windowSize)}
         </BlogContainer>
       );
     }
@@ -116,7 +117,7 @@ export default function Blog({ data }) {
           {BlogImage(edge)}
           <div class="blog-content w-50">
             {BlogTitle(edge)}
-            {BlogExcerpt(edge)}
+            {BlogExcerpt(edge, windowSize)}
           </div>
         </BlogContainer>
       );
@@ -125,7 +126,7 @@ export default function Blog({ data }) {
         <BlogContainer slug={slug}>
           <div class="blog-content w-50">
             {BlogTitle(edge)}
-            {BlogExcerpt(edge)}
+            {BlogExcerpt(edge, windowSize)}
           </div>
           {BlogImage(edge)}
         </BlogContainer>
@@ -152,7 +153,6 @@ export default function Blog({ data }) {
           <FilterBlog
             handleFilter={handleFilter}
             filterColor={filterColor}
-            mobile={mobile}
           />
         </div>
       </div>
