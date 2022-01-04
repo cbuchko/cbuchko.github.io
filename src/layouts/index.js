@@ -18,6 +18,8 @@ export const TemplateWrapper = ({
         <meta charSet="utf-8" />
         <title>Connor Buchko</title>
         <link rel="shortcut icon" type="image/jpg" href="/cartoon.png" />
+        <meta name="description" content="Connor Buchko's Website" />
+        <meta name="image" content="/cartoon.png" />
       </Helmet>
       <Header headerChildren={headerChildren} />
       <div class="wrapper min-h-100 mb6">{children}</div>
