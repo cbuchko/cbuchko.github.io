@@ -20,6 +20,10 @@ export const TemplateWrapper = ({
         <link rel="shortcut icon" type="image/jpg" href="/cartoon.png" />
         <meta name="description" content="Connor Buchko's Website" />
         <meta name="image" content="/cartoon.png" />
+        <meta property="og:title" content="Connor Buchko's Website" />
+        <meta property="og:description" content="Welcome to my blog and portfolio." />
+        <meta property="og:image" content="/cartoon.png" />
+        <meta property="og:type" content="website" />
       </Helmet>
       <Header headerChildren={headerChildren} />
       <div class="wrapper min-h-100 mb6">{children}</div>

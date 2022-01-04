@@ -121,7 +121,7 @@ const footerChildren = (
     </div>
     <div className="contact-me w-20 flex flex-column justify-center items-center pl5">
       <img class="br-100" src="/headshot.jpg" alt="headshot" />
-      <div className="mw5 pt3 lh-copy">
+      <div className="mw5 pt4 lh-copy">
         I'd love to hear from you, whether you have any questions, feedback or
         if you just want to talk!
       </div>
