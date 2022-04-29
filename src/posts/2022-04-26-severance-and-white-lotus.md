@@ -17,16 +17,16 @@ The surrealistic directing from Ben Stiller is what sells this mystery. The came
 
 Of course, there will be future seasons, and the mysteries will be answered. But it's refreshing to have a show that isn't obsessed with justifying its quirks. Severance is weird because it wants to be, and I appreciate that.
 
-At its core, Severance is a story about four different people in the same horrifying dilemma. Mark the optimist, Helly the pessimist, Dylan the aggressive and Irving the gentle. Their unlikely family is what gives the plot any sort of stakes. I'm invested in all of them, and am eager for their stories to continue.
+At its core, Severance is a story about four different people in the same horrifying dilemma. Mark the optimist, Helly the pessimist, Dylan the aggressive and Irving the gentle. Their unlikely family is what gives the plot any sort of stakes. I'm invested in all of them and am eager for their stories to continue.
 
 ## The White Lotus
 
-The White Lotus has become one of my favourite TV shows of all time. It's a masterclass of all facets of television. From the writing, to the acting, to the music, I've had a hard time finding a flaw. I'm a big fan of the shows lack of plot, beyond the obvious elements of a murder mystery. The writing focuses on the characters and the consequences of their actions. 
+The White Lotus has become one of my favourite TV shows of all time. It's a masterclass in all facets of television. From the writing, to the acting, to the music, I've had a hard time finding a flaw. I'm a big fan of the shows lack of plot, with it only having elements of a murder mystery. The writing focuses on the characters and the consequences of their actions. 
 
 These characters are nothing short of memorable. All of them embody real-life tropes, like Olivia being the know-it-all child, dialed up to 11. The White Lotus balances between having absurd caricatures and believable portrayals. The balance always ends up skewing towards the absurd, yet everything remains believable. The over the top dialogue shouldn't work because real people don't talk like that. But the actors performances and the commitment to the tone validates the outrageousness. 
 
 The tone of the show is uncomfortable. If Severance's tension is a slow build, The White Lotus is an unrelenting onslaught. An endless cycle of cringe scenarios and second-hand embarrassment. And the weaving of the distinct story arcs feels like a crescendo that never lets up. There's always an impending sense that shit will hit the fan. For some sadistic reason I'm a sucker for all the stress this show causes.
 
-And I would be making a huge mistake if I didn't mention the music. The soundtrack makes mundane conversations feel tense and drives the momentum between scenes. I'm not the type of guy to notice music but The White Lotus goes hard. And the theme song is an absolute ear worm
+And I would be making a huge mistake if I didn't mention the music. The soundtrack makes mundane conversations feel tense and it drives the momentum between scenes. I'm not the type of guy to notice music but The White Lotus goes hard. And the theme song is an absolute ear worm
 
 Watching these two shows has made me realize how much I love tense, awkward and off-putting dramas. Which I realize is a pretty specific niche but at least there's more seasons to look forward to.
