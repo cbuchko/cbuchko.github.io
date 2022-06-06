@@ -58,7 +58,7 @@ const BlogTitle = (edge) => {
 const BlogExcerpt = (edge, cutOff) => {
   let excerpt = edge.node.excerpt;
 
-  if(cutOff < 1400 && cutOff > 500){
+  if (cutOff < 1400 && cutOff > 500) {
     excerpt = excerpt.slice(0, -65);
     excerpt = excerpt + "...";
   }
@@ -150,10 +150,7 @@ export default function Blog({ data }) {
             searchVal={search}
             isSticky={false}
           />
-          <FilterBlog
-            handleFilter={handleFilter}
-            filterColor={filterColor}
-          />
+          <FilterBlog handleFilter={handleFilter} filterColor={filterColor} />
         </div>
       </div>
       <div>{blogList}</div>

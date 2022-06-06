@@ -32,12 +32,12 @@
 }
 
 .experience-padding {
- padding-top: 4.3rem;
+  padding-top: 4.3rem;
 }
 
 .experience-header {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .resume-skills-languages {

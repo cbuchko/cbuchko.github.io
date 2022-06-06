@@ -13,7 +13,7 @@ Casting is still hitting home runs. 42's cast is just banger after banger. Zach 
 
 Maryanne is a great winner. I'm all for unique play styles and personalities winning. To me, Maryanne was the epitome of the "too likeable" person that gets sniped near the end as a final tribal threat. Of course she gets to the end and has one of the best speeches in Survivor history. It's just a testament to her game with how well she downplayed that. 
 
-The twists are remain egregious. Do or Die and the hourglass need to go. Keep the others if you must. The amulets were fun, but it's still clear production doesn't understand their show.  I don't want to retread what I said in my 41 review, but adding more uncertainties to a social game only serves to make the game more stagnant.
+The twists remain egregious. Do or Die and the hourglass need to go. Keep the others if you must. The amulets were fun, but it's still clear production doesn't understand their show.  I don't want to retread what I said in my 41 review, but adding more uncertainties to a social game only serves to make the game more stagnant.
 
 Where 42 thrives is the edits focus on characters and relationships. Thankfully 41 explained how the new advantages worked, so we didn't need much rule reading. Instead, we got actual camp life and character development. Clips of them goofing around or having heartfelt conversations are always going to be my favourite. Episode 2 was a great example of this. It had nearly no gameplay but we got the Omar/Jonathon bromance, Hai's veganism, Maryanne being a gem and Mike losing his idol. This is what Survivor is about. Please, more of this CBS.
 

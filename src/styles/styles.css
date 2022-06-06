@@ -23,7 +23,7 @@ body {
 }
 
 .header-list li {
-  display: inline
+  display: inline;
 }
 
 .nav:hover {
@@ -144,23 +144,22 @@ body {
   }
 }
 
-/** Mobile Styles **/ 
+/** Mobile Styles **/
 
 @media screen and (max-width: 700px) {
-
   .hero {
     margin-right: 5%;
   }
 
-  .header{
+  .header {
     padding: 1rem;
   }
 
-  #scroll-btn{
-    display:none;
+  #scroll-btn {
+    display: none;
   }
 
-  .wrapper{
+  .wrapper {
     padding: 1rem;
     padding-bottom: 0rem;
     margin-bottom: 12rem;
