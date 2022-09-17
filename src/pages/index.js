@@ -24,7 +24,7 @@ const headerChildren = (
         <div className="title f1 b">Welcome to my Blog and Portfolio</div>
         <div className="about-me f4 pt4 roboto lh-copy">
           I'm a 5th year Software Engineering student at the University of
-          Victoria, currently pursuing a Co-op position for the Fall of 2022.
+          Victoria, graduating in December and looking for work in January.
         </div>
         <div className="CTA-container pt5 pb3">
           <a href="#experience">
