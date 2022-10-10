@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: "Survivor 43 First Impressions and Predictions"
-featuredImage: ../assets/images/Survivor_43/S43_Logo.jpg
+featuredImage: ../assets/images/Survivor_43/logo.webp
 publishDate: 2022-09-20
 category: survivor
 featured: false
