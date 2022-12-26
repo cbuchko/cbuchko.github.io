@@ -1,46 +1,24 @@
 import React from "react";
 import { useWindowSize } from "./useWindowSize";
 
-const getImage = (imgType) => {
-  if (imgType === "youtube") {
-    return "/youtube.png";
-  }
-  if (imgType === "itch") {
-    return "/itchlogo.png";
-  }
-  return "github.png";
+const getImageAndLink = (link, mobile, imgType) => {
+  const image = (imgType === "youtube") ? "/youtube.png" : (imgType === "itch") ? "/itchlogo.png" : "github.png";
+  const linkToUse = (!mobile || imgType === "youtube") ? link : undefined;
+  const showImage = (mobile && imgType === "youtube") || (!mobile && link);
+
+  return { image, linkToUse, showImage };
 };
 
-const getLink = (mobile, link, imgType) => {
-  if(!mobile){
-    return link;
-  }
-  if(imgType === "youtube"){
-    return link;
-  }
-  return;
-}
-
-const showImage = (link, mobile, imgType) => {
-  if(mobile){
-    if(imgType === "youtube"){
-      return true;
-    }
-    return false;
-  } else {
-    if(link){
-      return true;
-    }
-    return false;
-  }
-}
 export default function Project({ title, img, gif, body, link, imgType }) {
   const mobile = useWindowSize() < 900;
+
+  const {image, linkToUse, showImage} = getImageAndLink(link, mobile, imgType)
+
   return (
     <div className="br2 project-container">
       <a
         className="no-underline disabled"
-        href={getLink(mobile, link, imgType)}
+        href={linkToUse}
         target="_blank"
         rel="noreferrer"
       >
@@ -48,10 +26,10 @@ export default function Project({ title, img, gif, body, link, imgType }) {
         <div class="project-info pa4 flex h-100 w-100">
           <div className="project-spacing h-100">
             <div className="f5 lh-title">{body}</div>
-            {showImage(link, mobile, imgType) && (
+            {showImage && (
               <img
                 className="project-link mv3"
-                src={getImage(imgType)}
+                src={image}
                 alt="github link"
               />
             )}
