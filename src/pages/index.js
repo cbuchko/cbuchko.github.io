@@ -23,8 +23,7 @@ const headerChildren = (
         </div>
         <div className="title f1 b">Welcome to my Blog and Portfolio</div>
         <div className="about-me f4 pt4 roboto lh-copy">
-          I'm a 5th year Software Engineering student at the University of
-          Victoria, graduating in December and looking for work in January.
+          I'm a Full Stack Developer, currently working at Hummingbird Drones and developing the awesome fire suppression tool Fire AI. 
         </div>
         <div className="CTA-container pt5 pb3">
           <a href="#experience">
@@ -234,18 +233,18 @@ export default function Home({ data }) {
       <div>
         <div className="projects-container flex justify-center">
           <Project
-            title="Survival Game"
-            img="/gameexamplestatic.PNG"
-            gif="/gameexamplegif.gif"
-            body="A survival game made in Unity with C#. All of the assets and animations were drawn in Aseprite."
-            link="https://github.com/cbuchko/gamedev"
-            imgType="git"
+            title="Maze Game"
+            img="/mazegamestatic.PNG"
+            gif="/mazgameexample.gif"
+            body="A procedural maze solving game made with C# and Unity. Playable on itch.io."
+            link="https://cbuchko.itch.io/maze-game"
+            imgType="itch"
           />
           <Project
             title="Platforming Game"
             img="/motherload.PNG"
             gif="/motherloadgif.gif"
-            body="My first published Unity project: a mining survival game. Fully playable on itch.io."
+            body="My first published Unity project: a mining survival game. Playable on itch.io."
             link="https://cbuchko.itch.io/drillgame"
             imgType="itch"
           />
