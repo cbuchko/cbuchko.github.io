@@ -1,8 +1,8 @@
 ---
 layout: blog-post
 title: "Survivor 44 Final Predictions"
-featuredImage: ../assets/images/Survivor_44/tika.webp
-publishDate: 2023-03-20
+featuredImage: ../assets/images/Survivor_44/tikathree.webp
+publishDate: 2023-04-10
 category: survivor
 featured: false
 ---
