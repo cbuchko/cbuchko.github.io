@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: "Better Call Saul: Better than Breaking Bad"
-featuredImage: ../assets/images/bettercallsaul.jpg
+featuredImage: ../assets/images/saul.jpg
 publishDate: 2022-09-17
 category: tv
 featured: true
