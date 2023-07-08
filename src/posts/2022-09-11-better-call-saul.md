@@ -4,7 +4,7 @@ title: "Better Call Saul: Better than Breaking Bad"
 featuredImage: ../assets/images/saul.jpg
 publishDate: 2022-09-17
 category: tv
-featured: true
+featured: false
 ---
 
 When I hear "prequel", I think cash grab. A studios cheap attempt to capitalize on the success of a hit show or film. Why tarnish Breaking Bads legacy with a show about the silly lawyer? What more story could there be to tell? Turns out a lot. A lot of really freaking good stories. Holy shit Better Call Saul is good, and it totally stands on its own.
