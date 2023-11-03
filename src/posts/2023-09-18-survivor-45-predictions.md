@@ -2,7 +2,7 @@
 layout: blog-post
 title: "Survivor 45 First Impressions and Predictions"
 featuredImage: ../assets/images/Survivor_45/logo.png
-publishDate: 2022-09-24
+publishDate: 2023-09-24
 category: survivor
 featured: false
 ---
