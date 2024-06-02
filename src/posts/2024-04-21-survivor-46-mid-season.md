@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: "Survivor 46 is Messy and Mesmerizing"
+title: "Survivor 46 Mid Season Check-in"
 featuredImage: ../assets/images/Q.jpg
 publishDate: 2024-04-21
 category: survivor
