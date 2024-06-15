@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: "Winning New Era Survivor: Never Flip"
+title: "Winning New Era Survivor: Learn the Meta"
 featuredImage: ../assets/images/snuff.jpg
 publishDate: 2024-05-05
 category: survivor
